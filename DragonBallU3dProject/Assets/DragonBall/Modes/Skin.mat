@@ -84,8 +84,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_13052B57: {r: 0.9221513, g: 0.555222, b: 0.555222, a: 0}
-    - Color_B91AA898: {r: 1, g: 0.8489659, b: 0.8254717, a: 0}
+    - Color_13052B57: {r: 1.2407722, g: 0.9188738, b: 0.9188738, a: 0}
+    - Color_B91AA898: {r: 0.9339623, g: 0.6810876, b: 0.59474015, a: 0}
     - Vector3_20AC85FA: {r: 0.6, g: 1, b: 0, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
