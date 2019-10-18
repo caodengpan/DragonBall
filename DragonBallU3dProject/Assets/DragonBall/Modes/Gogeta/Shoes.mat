@@ -5,11 +5,9 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: Shoes
-  m_Shader: {fileID: -6465566751694194690, guid: 154dee89caac39343a0ba03204245ebf,
-    type: 3}
+  m_Shader: {fileID: 4800000, guid: 119dda6e270bead47bff382407a26389, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,6 +18,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_1B9CB7CE:
+        m_Texture: {fileID: 2800000, guid: 4878e8b0a382c26449edcb1fe24ab2c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_30925A94:
         m_Texture: {fileID: 2800000, guid: 207cd7d6bdf48884581528e5cefd1cd7, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -76,8 +78,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_13052B57: {r: 1.107352, g: 1.091828, b: 0.7037376, a: 0}
     - Color_610CAD4C: {r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 0}
+    - Color_B91AA898: {r: 0.4607067, g: 0.7817314, b: 0.8207547, a: 0}
     - Color_BF728FD9: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0}
+    - Vector3_20AC85FA: {r: 1, g: 1, b: 0, a: 0}
     - Vector3_75457620: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -87,12 +92,13 @@ Material:
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   version: 1
