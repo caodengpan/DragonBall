@@ -10521,6 +10521,22 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -158.059
       objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: 894f11d6dea3aff41839945c0b79a88a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: 894f11d6dea3aff41839945c0b79a88a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 894f11d6dea3aff41839945c0b79a88a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 457701a1eb7042941b96511f7e2ecfb0, type: 2}
+    - target: {fileID: 13700002, guid: 894f11d6dea3aff41839945c0b79a88a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d45c2cd0b0cebe40b2e3f21cc04351a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 894f11d6dea3aff41839945c0b79a88a, type: 3}
   m_IsPrefabAsset: 0
