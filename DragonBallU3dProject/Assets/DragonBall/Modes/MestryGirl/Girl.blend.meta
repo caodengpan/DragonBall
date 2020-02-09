@@ -15,6 +15,37 @@ ModelImporter:
     100018: Clothes
     100020: Hair
     100022: Shoes
+    100024: breast_L
+    100026: breast_R
+    100028: foot_L
+    100030: foot_R
+    100032: forearm_L
+    100034: forearm_R
+    100036: hand_L
+    100038: hand_R
+    100040: Hat
+    100042: metarig
+    100044: pelvis_L
+    100046: pelvis_R
+    100048: shin_L
+    100050: shin_R
+    100052: shoulder_L
+    100054: shoulder_R
+    100056: spine
+    100058: spine_001
+    100060: spine_002
+    100062: spine_003
+    100064: spine_004
+    100066: spine_005
+    100068: spine_006
+    100070: spine_007
+    100072: spine_008
+    100074: thigh_L
+    100076: thigh_R
+    100078: toe_L
+    100080: toe_R
+    100082: upper_arm_L
+    100084: upper_arm_R
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -27,6 +58,37 @@ ModelImporter:
     400018: Clothes
     400020: Hair
     400022: Shoes
+    400024: breast_L
+    400026: breast_R
+    400028: foot_L
+    400030: foot_R
+    400032: forearm_L
+    400034: forearm_R
+    400036: hand_L
+    400038: hand_R
+    400040: Hat
+    400042: metarig
+    400044: pelvis_L
+    400046: pelvis_R
+    400048: shin_L
+    400050: shin_R
+    400052: shoulder_L
+    400054: shoulder_R
+    400056: spine
+    400058: spine_001
+    400060: spine_002
+    400062: spine_003
+    400064: spine_004
+    400066: spine_005
+    400068: spine_006
+    400070: spine_007
+    400072: spine_008
+    400074: thigh_L
+    400076: thigh_R
+    400078: toe_L
+    400080: toe_R
+    400082: upper_arm_L
+    400084: upper_arm_R
     2100000: girdle
     2100002: sweat
     2100004: trousers
@@ -45,6 +107,7 @@ ModelImporter:
     2300016: Clothes
     2300018: Hair
     2300020: Shoes
+    2300022: Hat
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -56,6 +119,7 @@ ModelImporter:
     3300016: Clothes
     3300018: Hair
     3300020: Shoes
+    3300022: Hat
     4300000: Plane
     4300002: Cube_003
     4300004: Cube_002
@@ -67,8 +131,10 @@ ModelImporter:
     4300016: Clothes
     4300018: Hair
     4300020: Body
+    4300022: Hat
     7400000: Default Take
     9500000: //RootNode
+    13700000: Body
   externalObjects: {}
   materials:
     importMaterials: 1
