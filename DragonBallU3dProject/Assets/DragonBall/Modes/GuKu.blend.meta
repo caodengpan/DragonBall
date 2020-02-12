@@ -1,24 +1,107 @@
 fileFormatVersion: 2
-guid: b3043f9899a430340a9a17c39d4ac9b4
+guid: 053ffaf9282ccaf43b6edce1d86c4445
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Cylinder
-    100002: Plane
-    100004: //RootNode
-    400000: Cylinder
-    400002: Plane
-    400004: //RootNode
+    100000: breast_L
+    100002: breast_R
+    100004: foot_L
+    100006: foot_R
+    100008: forearm_L
+    100010: forearm_R
+    100012: GoKu
+    100014: //RootNode
+    100016: Hair
+    100018: hand_L
+    100020: hand_L_001
+    100022: hand_L_002
+    100024: hand_L_003
+    100026: hand_L_004
+    100028: hand_R
+    100030: hand_R_001
+    100032: hand_R_002
+    100034: hand_R_003
+    100036: hand_R_004
+    100038: metarig
+    100040: pelvis_L
+    100042: pelvis_R
+    100044: Plane_001
+    100046: shin_L
+    100048: shin_R
+    100050: shoulder_L
+    100052: shoulder_R
+    100054: spine
+    100056: spine_001
+    100058: spine_002
+    100060: spine_003
+    100062: spine_005
+    100064: spine_006
+    100066: spine_007
+    100068: thigh_L
+    100070: thigh_R
+    100072: toe_L
+    100074: toe_R
+    100076: upper_arm_L
+    100078: upper_arm_R
+    400000: breast_L
+    400002: breast_R
+    400004: foot_L
+    400006: foot_R
+    400008: forearm_L
+    400010: forearm_R
+    400012: GoKu
+    400014: //RootNode
+    400016: Hair
+    400018: hand_L
+    400020: hand_L_001
+    400022: hand_L_002
+    400024: hand_L_003
+    400026: hand_L_004
+    400028: hand_R
+    400030: hand_R_001
+    400032: hand_R_002
+    400034: hand_R_003
+    400036: hand_R_004
+    400038: metarig
+    400040: pelvis_L
+    400042: pelvis_R
+    400044: Plane_001
+    400046: shin_L
+    400048: shin_R
+    400050: shoulder_L
+    400052: shoulder_R
+    400054: spine
+    400056: spine_001
+    400058: spine_002
+    400060: spine_003
+    400062: spine_005
+    400064: spine_006
+    400066: spine_007
+    400068: thigh_L
+    400070: thigh_R
+    400072: toe_L
+    400074: toe_R
+    400076: upper_arm_L
+    400078: upper_arm_R
     2100000: unnamed
-    2100002: None__CellGameGround_001
-    2300000: Cylinder
-    2300002: Plane
-    3300000: Cylinder
-    3300002: Plane
-    4300000: Cylinder
-    4300002: Plane
+    2100002: hair
+    2100004: skin
+    2100006: clothes
+    2100008: sweat
+    2100010: gloves
+    2300000: Plane_001
+    3300000: Plane_001
+    4300000: Plane_001
+    4300002: Hair
+    4300004: GoKu
     7400000: Default Take
+    7400002: metarigAction
+    7400004: metarigAction_003
+    7400006: PoseLib
     9500000: //RootNode
+    13700000: GoKu
+    13700002: Hair
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
