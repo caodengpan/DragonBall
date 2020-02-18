@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: eyes
-  m_Shader: {fileID: 4800000, guid: 119dda6e270bead47bff382407a26389, type: 3}
+  m_Shader: {fileID: 4800000, guid: bcda9a4af3b5d8246a2910cff3e5af44, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -73,17 +73,20 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Factor: 0.5
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _Outline: 0.07
     - _Parallax: 0.02
     - _RimMax: 0.65
     - _RimMin: 0.54
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SpecularScale: 0
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
@@ -94,8 +97,10 @@ Material:
     - Color_BF728FD9: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_20AC85FA: {r: 1, g: 1, b: 0, a: 0}
     - Vector3_75457620: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Color: {r: 0.9811321, g: 0.89769745, b: 0.8006408, a: 1}
+    - _Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _HColor: {r: 0.8962264, g: 0.8433829, b: 0.7905393, a: 1}
-    - _RimColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0.6}
-    - _SColor: {r: 0.8679245, g: 0.38609415, b: 0.24154504, a: 1}
+    - _HColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    - _SColor: {r: 0.59260416, g: 0.6509434, b: 0.64922756, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
