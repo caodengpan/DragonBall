@@ -67,6 +67,7 @@
      <Compile Include="Assets\DragonBall\Environment\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMove.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMoveBehaviour.cs" />
+     <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLTurnState.cs" />
      <Compile Include="Assets\DragonBall\Scripts\Character\Character.cs" />
      <Compile Include="Assets\DragonBall\Scripts\Character\Player.cs" />
      <Compile Include="Assets\DragonBall\Scripts\Character\Sayin.cs" />
