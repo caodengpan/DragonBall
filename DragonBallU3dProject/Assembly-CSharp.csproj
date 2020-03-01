@@ -65,6 +65,8 @@
      <Compile Include="Assets\DragonBall\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\DragonBall\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\DragonBall\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\DragonBall\Scenes\CellGame2\AnimEvenFuncs.cs" />
+     <Compile Include="Assets\DragonBall\Scenes\CellGame2\GBTeleportEffect.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMove.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMoveBehaviour.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLTurnState.cs" />
@@ -97,6 +99,7 @@
      <Compile Include="Assets\DragonBall\Scripts\UI\PlayerUI.cs" />
      <Compile Include="Assets\DragonBall\Scripts\UI\SayinUI.cs" />
      <Compile Include="Assets\DragonBall\Scripts\UI\VagitoUI.cs" />
+     <Compile Include="Assets\DragonBall\Scripts\UnityTool.cs" />
      <Compile Include="Assets\DragonBall\Utility\ActivateTrigger.cs" />
      <Compile Include="Assets\DragonBall\Utility\AutoMobileShaderSwitch.cs" />
      <Compile Include="Assets\DragonBall\Utility\AutoMoveAndRotate.cs" />

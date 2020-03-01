@@ -175,6 +175,34 @@ ModelImporter:
     7400066: behit_front
     7400068: behit_fallStraight_stop
     7400070: ready_jiqi
+    7400072: atk_hand_R_hand_L_fly_cycle
+    7400074: atk_hand_R_inAir_crouch
+    7400076: behit_front_up_toBack
+    7400078: behit_front_up_toBackR
+    7400080: atk_foot_R_ground_inAir
+    7400082: atk_foot_L_ground_toFront
+    7400084: atk_foot_R_inAir_toFrontL
+    7400086: atk_foot_R_L_toUp
+    7400088: atk_hand_L_bounce
+    7400090: block_front_up_crossHand
+    7400092: block_front_up_crouch
+    7400094: atk_hand_L_hard
+    7400096: behit_back_middle
+    7400098: behit_front_middle_inAir
+    7400100: atk_foot_R_inAir_around
+    7400102: atk_hand_R_hand_L_front_up_front_middle_cycle
+    7400104: atk_hand_R_front_up_inAir_crouch
+    7400106: atk_foot_R_front_up_inAir_around
+    7400108: atk_foot_L_front_middle_ground
+    7400110: atk_foot_R_left_up_inAir
+    7400112: atk_foot_R_L_front_middle
+    7400114: atk_hand_L_front_up_front_middle_bounce
+    7400116: atk_hand_L_front_middle_hard
+    7400118: behit_front_up_turnR
+    7400120: behit_front_up_turnL
+    7400122: block_hand_L_R_front_up_crossHand
+    7400124: block_hand_L_R_front_up_crouch
+    7400126: atk_hand_R_hand_L_front_up_inAir_cycle
     9500000: //RootNode
     13700000: Plane
     13700002: Hair
@@ -461,10 +489,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_wukong_lianxu
-      takeName: quan_wukong_lianxu
-      firstFrame: -1
-      lastFrame: 10
+      name: atk_hand_R_hand_L_front_up_front_middle_cycle
+      takeName: atk_hand_R_hand_L_front_up_front_middle_cycle
+      firstFrame: 0
+      lastFrame: 18
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -489,10 +517,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_wukong_you
-      takeName: quan_wukong_you
+      name: atk_hand_R_front_up_inAir_crouch
+      takeName: atk_hand_R_front_up_inAir_crouch
       firstFrame: -1
-      lastFrame: 21
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -517,10 +545,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_zhanli_lianxu
-      takeName: quan_zhanli_lianxu
-      firstFrame: -1
-      lastFrame: 11
+      name: atk_hand_R_hand_L_front_up_inAir_cycle
+      takeName: atk_hand_R_hand_L_front_up_inAir_cycle
+      firstFrame: 0
+      lastFrame: 17
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -573,36 +601,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: shouji_zhanli_downToUp
-      takeName: shouji_zhanli_downToUp
-      firstFrame: -1
-      lastFrame: 12
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: shouji_zhanli_zuo
-      takeName: shouji_zhanli_zuo
+      name: behit_front_up_turnR
+      takeName: behit_front_up_turnR
       firstFrame: -1
       lastFrame: 10
       wrapMode: 0
@@ -629,10 +629,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ti_banhu
-      takeName: ti_banhu
+      name: behit_front_up_turnL
+      takeName: behit_front_up_turnL
       firstFrame: -1
-      lastFrame: 19
+      lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -657,10 +657,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ti_right_bandun
-      takeName: ti_right_bandun
+      name: atk_foot_R_front_up_inAir_around
+      takeName: atk_foot_R_front_up_inAir_around
       firstFrame: -1
-      lastFrame: 20
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -685,10 +685,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ti_shangceti
-      takeName: ti_shangceti
+      name: atk_foot_L_front_middle_ground
+      takeName: atk_foot_L_front_middle_ground
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: atk_foot_R_left_up_inAir
+      takeName: atk_foot_R_left_up_inAir
       firstFrame: -1
-      lastFrame: 15
+      lastFrame: 10
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -769,10 +797,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ti_double_up
-      takeName: ti_double_up
+      name: atk_foot_R_L_front_middle
+      takeName: atk_foot_R_L_front_middle
       firstFrame: 0
-      lastFrame: 21.1
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -797,10 +825,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: tankai_arm_left
-      takeName: tankai_arm_left
-      firstFrame: -1
-      lastFrame: 9
+      name: atk_hand_L_front_up_front_middle_bounce
+      takeName: atk_hand_L_front_up_front_middle_bounce
+      firstFrame: 0
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -825,10 +853,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: block_shuangshoujiaocha
-      takeName: block_shuangshoujiaocha
-      firstFrame: -1
-      lastFrame: 7
+      name: block_hand_L_R_front_up_crossHand
+      takeName: block_hand_L_R_front_up_crossHand
+      firstFrame: 0
+      lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -853,10 +881,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: block_shuangshoujiaocha_xiadun
-      takeName: block_shuangshoujiaocha_xiadun
-      firstFrame: -1
-      lastFrame: 7
+      name: block_hand_L_R_front_up_crouch
+      takeName: block_hand_L_R_front_up_crouch
+      firstFrame: 0
+      lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -909,9 +937,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_zhong_right
-      takeName: quan_zhong_right
-      firstFrame: -1
+      name: atk_hand_L_front_middle_hard
+      takeName: atk_hand_L_front_middle_hard
+      firstFrame: 0
       lastFrame: 16
       wrapMode: 0
       orientationOffsetY: 0
@@ -937,9 +965,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_back
-      takeName: behit_back
-      firstFrame: -1
+      name: behit_back_middle
+      takeName: behit_back_middle
+      firstFrame: 0
       lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
@@ -965,9 +993,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_front
-      takeName: behit_front
-      firstFrame: -1
+      name: behit_front_middle_inAir
+      takeName: behit_front_middle_inAir
+      firstFrame: 0
       lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
@@ -995,8 +1023,8 @@ ModelImporter:
     - serializedVersion: 16
       name: behit_fallStraight_stop
       takeName: behit_fallStraight_stop
-      firstFrame: -1
-      lastFrame: 4
+      firstFrame: 0
+      lastFrame: 10
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

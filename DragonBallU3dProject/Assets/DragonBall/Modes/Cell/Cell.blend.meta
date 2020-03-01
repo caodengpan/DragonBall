@@ -118,6 +118,33 @@ ModelImporter:
     7400048: behit_front
     7400050: quan_double_upToDown
     7400052: idle_inAir
+    7400054: ready_baoqi
+    7400056: atk_quan_zhong_right
+    7400058: atk_ti_xiadun_yuanhu_shun_right
+    7400060: atk_ti_stand_banhu_right
+    7400062: atk_pi_hand_right
+    7400064: atk_tankai_arm_left
+    7400066: atk_quan_wukong_lianxu
+    7400068: atk_quan_zhanli_lianxu
+    7400070: atk_quan_double_upToDown
+    7400072: behit_front_up_toBack
+    7400074: behit_front_up_fly
+    7400076: behit_front_middle
+    7400078: behit_back_middle
+    7400080: behit_front_middle (1)
+    7400082: block_hand_L_left_up
+    7400084: block_hand_L_R_front_up_crossHand
+    7400086: evade_front_up_front_middle_ground
+    7400088: atk_foot_R_front_down_ground_round
+    7400090: atk_foot_R_front_middle_turnL
+    7400092: atk_hand_R_front_up_turnR
+    7400094: evade_front_middle_turnR
+    7400096: atk_hand_L_front_up_front_middle_bounce
+    7400098: atk_hand_R_hand_L_front_up_front_middle_cycle
+    7400100: atk_hand_R_hand_L_front_up_inAir_cycle
+    7400102: atk_hand_R_L_front_middle_upToDown
+    7400104: behit_front_middle_inAir
+    7400106: behit_front_up_turnL
     9500000: //RootNode
     13700000: Cell
     2186277476908879412: ImportLogs
@@ -136,7 +163,14 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: Event HitFrameTrigger has a time (0.100365) outside the
+      clip's valid range (0.125000..0.500000). It will never be firedEvent HitFrameTrigger
+      has a time (0.078214) outside the clip's valid range (0.166667..3.041667). It
+      will never be firedEvent HitFrameTrigger has a time (0.076561) outside the clip's
+      valid range (0.125000..0.541667). It will never be firedEvent HitFrameTrigger
+      has a time (0.115430) outside the clip's valid range (0.166667..0.583333). It
+      will never be firedEvent HitFrameTrigger has a time (0.103062) outside the clip's
+      valid range (0.166667..0.583333). It will never be fired
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -180,7 +214,7 @@ ModelImporter:
     - serializedVersion: 16
       name: behit_fly_stop
       takeName: behit_fly_stop
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
@@ -206,9 +240,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_stand_downToUp
-      takeName: behit_stand_downToUp
-      firstFrame: -1
+      name: behit_front_up_turnL
+      takeName: behit_front_up_turnL
+      firstFrame: 0
       lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
@@ -228,16 +262,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.20073082
+        functionName: HitFrameTrigger
+        data: behit_front_up_turnL
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_stand_fly
-      takeName: behit_stand_fly
-      firstFrame: -1
-      lastFrame: 133
+      name: behit_front_up_fly
+      takeName: behit_front_up_fly
+      firstFrame: 0
+      lastFrame: 73
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -256,15 +297,22 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.02571429
+        functionName: HitFrameTrigger
+        data: behit_front_up_fly
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_stand_middle
-      takeName: behit_stand_middle
-      firstFrame: -1
+      name: behit_front_middle
+      takeName: behit_front_middle
+      firstFrame: 0
       lastFrame: 13
       wrapMode: 0
       orientationOffsetY: 0
@@ -284,16 +332,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.14134276
+        functionName: HitFrameTrigger
+        data: behit_front_middle
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: block_right_arm
-      takeName: block_right_arm
-      firstFrame: -1
-      lastFrame: 8
+      name: block_hand_L_left_up
+      takeName: block_hand_L_left_up
+      firstFrame: 0
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -312,16 +367,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.26885912
+        functionName: HitFrameTrigger
+        data: block_hand_L_left_up
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: block_shuangshoujiaocha
-      takeName: block_shuangshoujiaocha
-      firstFrame: -1
-      lastFrame: 7
+      name: block_hand_L_R_front_up_crossHand
+      takeName: block_hand_L_R_front_up_crossHand
+      firstFrame: 0
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -340,14 +402,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.27561837
+        functionName: HitFrameTrigger
+        data: block_hand_L_R_front_up_crossHand
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: evade_down
-      takeName: evade_down
+      name: evade_front_up_front_middle_ground
+      takeName: evade_front_up_front_middle_ground
       firstFrame: -1
       lastFrame: 14
       wrapMode: 0
@@ -458,10 +527,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_zhong_right
-      takeName: quan_zhong_right
+      name: atk_quan_zhong_right
+      takeName: atk_quan_zhong_right
       firstFrame: -1
-      lastFrame: 18
+      lastFrame: 16
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -480,7 +549,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.60200316
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -514,8 +590,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ti_xiadun_yuanhu_shun_right
-      takeName: ti_xiadun_yuanhu_shun_right
+      name: atk_foot_R_front_down_ground_round
+      takeName: atk_foot_R_front_down_ground_round
       firstFrame: -1
       lastFrame: 25
       wrapMode: 0
@@ -536,14 +612,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.48515624
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ti_stand_banhu_right
-      takeName: ti_stand_banhu_right
+      name: atk_foot_R_front_middle_turnL
+      takeName: atk_foot_R_front_middle_turnL
       firstFrame: -1
       lastFrame: 12
       wrapMode: 0
@@ -564,14 +647,56 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.27656248
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: pi_hand_right
-      takeName: pi_hand_right
+      name: atk_hand_R_front_up_turnR
+      takeName: atk_hand_R_front_up_turnR
+      firstFrame: -1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.22031249
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: evade_front_middle_turnR
+      takeName: evade_front_middle_turnR
       firstFrame: -1
       lastFrame: 9
       wrapMode: 0
@@ -598,8 +723,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: evade_right2
-      takeName: evade_right2
+      name: atk_hand_L_front_up_front_middle_bounce
+      takeName: atk_hand_L_front_up_front_middle_bounce
       firstFrame: -1
       lastFrame: 9
       wrapMode: 0
@@ -620,35 +745,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: tankai_arm_left
-      takeName: tankai_arm_left
-      firstFrame: -1
-      lastFrame: 9
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
+      events:
+      - time: 0.18046874
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -682,9 +786,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_back
-      takeName: behit_back
-      firstFrame: -1
+      name: behit_back_middle
+      takeName: behit_back_middle
+      firstFrame: 0
       lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
@@ -704,14 +808,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.19787987
+        functionName: HitFrameTrigger
+        data: behit_back_middle
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_wukong_lianxu
-      takeName: quan_wukong_lianxu
+      name: atk_hand_R_hand_L_front_up_front_middle_cycle
+      takeName: atk_hand_R_hand_L_front_up_front_middle_cycle
       firstFrame: -1
       lastFrame: 10
       wrapMode: 0
@@ -732,14 +843,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.22031249
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_zhanli_lianxu
-      takeName: quan_zhanli_lianxu
+      name: atk_hand_R_hand_L_front_up_inAir_cycle
+      takeName: atk_hand_R_hand_L_front_up_inAir_cycle
       firstFrame: -1
       lastFrame: 11
       wrapMode: 0
@@ -760,15 +878,29 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.20390624
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6796875
+        functionName: AttackFrameTrigger
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: behit_front
-      takeName: behit_front
-      firstFrame: -1
+      name: behit_front_middle_inAir
+      takeName: behit_front_middle_inAir
+      firstFrame: 0
       lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
@@ -788,16 +920,58 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.17667845
+        functionName: HitFrameTrigger
+        data: behit_front_middle_inAir
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: quan_double_upToDown
-      takeName: quan_double_upToDown
-      firstFrame: 0.20000002
+      name: atk_hand_R_L_front_middle_upToDown
+      takeName: atk_hand_R_L_front_middle_upToDown
+      firstFrame: 0
       lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.6183961
+        functionName: AttackFrameTrigger
+        data: atk_quan_double_upToDown
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_inAir
+      takeName: idle_inAir
+      firstFrame: -1
+      lastFrame: 41
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -822,10 +996,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: idle_inAir
-      takeName: idle_inAir
-      firstFrame: -1
-      lastFrame: 41
+      name: ready_baoqi
+      takeName: ready_baoqi
+      firstFrame: 0
+      lastFrame: 21
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
