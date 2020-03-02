@@ -145,6 +145,8 @@ ModelImporter:
     7400102: atk_hand_R_L_front_middle_upToDown
     7400104: behit_front_middle_inAir
     7400106: behit_front_up_turnL
+    7400108: behit_back_middle_toGround
+    7400110: behit_front_up_YdirFly
     9500000: //RootNode
     13700000: Cell
     2186277476908879412: ImportLogs
@@ -167,10 +169,18 @@ ModelImporter:
       clip's valid range (0.125000..0.500000). It will never be firedEvent HitFrameTrigger
       has a time (0.078214) outside the clip's valid range (0.166667..3.041667). It
       will never be firedEvent HitFrameTrigger has a time (0.076561) outside the clip's
-      valid range (0.125000..0.541667). It will never be firedEvent HitFrameTrigger
-      has a time (0.115430) outside the clip's valid range (0.166667..0.583333). It
-      will never be firedEvent HitFrameTrigger has a time (0.103062) outside the clip's
-      valid range (0.166667..0.583333). It will never be fired
+      valid range (0.125000..0.541667). It will never be firedEvent AttackFrameTrigger
+      has a time (0.149805) outside the clip's valid range (0.208333..0.541667). It
+      will never be firedEvent AttackFrameTrigger has a time (0.091797) outside the
+      clip's valid range (0.208333..0.416667). It will never be firedEvent AttackFrameTrigger
+      has a time (0.075195) outside the clip's valid range (0.208333..0.416667). It
+      will never be firedEvent HitFrameTrigger has a time (0.115430) outside the clip's
+      valid range (0.166667..0.583333). It will never be firedEvent AttackFrameTrigger
+      has a time (0.100977) outside the clip's valid range (0.166667..0.458333). It
+      will never be firedEvent AttackFrameTrigger has a time (0.101953) outside the
+      clip's valid range (0.166667..0.500000). It will never be firedEvent HitFrameTrigger
+      has a time (0.103062) outside the clip's valid range (0.166667..0.583333). It
+      will never be fired
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -417,7 +427,7 @@ ModelImporter:
     - serializedVersion: 16
       name: evade_front_up_front_middle_ground
       takeName: evade_front_up_front_middle_ground
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
@@ -697,7 +707,7 @@ ModelImporter:
     - serializedVersion: 16
       name: evade_front_middle_turnR
       takeName: evade_front_middle_turnR
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 9
       wrapMode: 0
       orientationOffsetY: 0
@@ -823,8 +833,8 @@ ModelImporter:
     - serializedVersion: 16
       name: atk_hand_R_hand_L_front_up_front_middle_cycle
       takeName: atk_hand_R_hand_L_front_up_front_middle_cycle
-      firstFrame: -1
-      lastFrame: 10
+      firstFrame: 0
+      lastFrame: 22
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -858,8 +868,8 @@ ModelImporter:
     - serializedVersion: 16
       name: atk_hand_R_hand_L_front_up_inAir_cycle
       takeName: atk_hand_R_hand_L_front_up_inAir_cycle
-      firstFrame: -1
-      lastFrame: 11
+      firstFrame: 0
+      lastFrame: 22
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1000,6 +1010,62 @@ ModelImporter:
       takeName: ready_baoqi
       firstFrame: 0
       lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: behit_back_middle_toGround
+      takeName: behit_back_middle_toGround
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: behit_front_up_YdirFly
+      takeName: behit_front_up_YdirFly
+      firstFrame: 0
+      lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

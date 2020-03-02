@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 5644e07637f83b2489d9eac5fbceb8af
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: breast_L
+    100002: breast_R
+    100004: Cell_proxy
+    100006: //RootNode
+    100008: foot_L
+    100010: foot_R
+    100012: forearm_L
+    100014: forearm_R
+    100016: hand_L
+    100018: hand_L_001
+    100020: hand_L_002
+    100022: hand_L_003
+    100024: hand_L_004
+    100026: hand_R
+    100028: hand_R_001
+    100030: hand_R_002
+    100032: hand_R_003
+    100034: hand_R_004
+    100036: metarig_proxy
+    100038: pelvis_L
+    100040: pelvis_R
+    100042: shin_L
+    100044: shin_R
+    100046: shoulder_L
+    100048: shoulder_R
+    100050: spine
+    100052: spine_001
+    100054: spine_002
+    100056: spine_002_L
+    100058: spine_002_R
+    100060: spine_003
+    100062: spine_004
+    100064: spine_005
+    100066: spine_006
+    100068: thigh_L
+    100070: thigh_R
+    100072: toe_L
+    100074: toe_R
+    100076: upper_arm_L
+    100078: upper_arm_R
+    100080: Cell
+    100082: metarig
+    400000: breast_L
+    400002: breast_R
+    400004: Cell_proxy
+    400006: //RootNode
+    400008: foot_L
+    400010: foot_R
+    400012: forearm_L
+    400014: forearm_R
+    400016: hand_L
+    400018: hand_L_001
+    400020: hand_L_002
+    400022: hand_L_003
+    400024: hand_L_004
+    400026: hand_R
+    400028: hand_R_001
+    400030: hand_R_002
+    400032: hand_R_003
+    400034: hand_R_004
+    400036: metarig_proxy
+    400038: pelvis_L
+    400040: pelvis_R
+    400042: shin_L
+    400044: shin_R
+    400046: shoulder_L
+    400048: shoulder_R
+    400050: spine
+    400052: spine_001
+    400054: spine_002
+    400056: spine_002_L
+    400058: spine_002_R
+    400060: spine_003
+    400062: spine_004
+    400064: spine_005
+    400066: spine_006
+    400068: thigh_L
+    400070: thigh_R
+    400072: toe_L
+    400074: toe_R
+    400076: upper_arm_L
+    400078: upper_arm_R
+    400080: Cell
+    400082: metarig
+    2100000: girdle
+    2100002: skin
+    2100004: sweat
+    2100006: guanjie
+    2100008: black
+    2100010: eye
+    2100012: girdle__bandian_png
+    4300000: Cell_proxy
+    4300002: Cell
+    7400000: Default Take
+    7400002: evade_back_up_turnR
+    7400004: evade_front_middle_turnR
+    7400006: evade_front_up_front_middle_ground
+    9500000: //RootNode
+    13700000: Cell_proxy
+    13700002: Cell
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.4
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1.4
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

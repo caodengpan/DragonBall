@@ -4795,7 +4795,7 @@ Transform:
   m_GameObject: {fileID: 54435242}
   m_LocalRotation: {x: -0.00000003725288, y: 0.00000010430808, z: -0.000000029802322,
     w: 1}
-  m_LocalPosition: {x: 0.16697264, y: -2.8981438, z: -3.0805676}
+  m_LocalPosition: {x: 2.5029542, y: -0.19793892, z: -4.5884857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 187842951}
@@ -4964,6 +4964,20 @@ PlayableDirector:
     value: {fileID: 715100872}
   - key: {fileID: 114506444160865274, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
     value: {fileID: 1823484372}
+  - key: {fileID: 114739073584377172, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
+    value: {fileID: 1104990598}
+  - key: {fileID: 114653835557792462, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
+    value: {fileID: 1104990598}
+  - key: {fileID: 114122101632784752, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
+    value: {fileID: 841099711}
+  - key: {fileID: 0}
+    value: {fileID: 1449459551}
+  - key: {fileID: 114824912489793562, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
+    value: {fileID: 715100872}
+  - key: {fileID: 114337220577234228, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
+    value: {fileID: 1914751163}
+  - key: {fileID: 114560841790292680, guid: 129f10de118b14c49885a0f5dd1ea452, type: 2}
+    value: {fileID: 587178862}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &84426479
@@ -5709,9 +5723,9 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 7dd21a71f4fa58c4ca5cf15f3f734b16, type: 2}
-  - {fileID: 2100000, guid: 3027b43b4a6593a468dda4ebadb0fee6, type: 2}
-  - {fileID: 2100000, guid: 6af94862b7ff35f4399e39541cd10ce0, type: 2}
+  - {fileID: 2100000, guid: 0fa9240206050c04fbe4943d3dc4f53f, type: 2}
+  - {fileID: 2100000, guid: 58205327819384c4ca9a184410b591c6, type: 2}
+  - {fileID: 2100000, guid: 35d9f0bdcd701384c8eb453b88966c89, type: 2}
   - {fileID: 2100000, guid: 94aa150934e3b544bb0b0797c7824f29, type: 2}
   - {fileID: 2100000, guid: 6838bdb45b78af942bbb1e59adecd9b6, type: 2}
   m_StaticBatchInfo:
@@ -7200,7 +7214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4922830847622568, guid: d46c41c0a52defd449d4de27ab65277a, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 137864263815689032, guid: d46c41c0a52defd449d4de27ab65277a,
         type: 2}
@@ -8032,7 +8046,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.9103774, g: 0.98385185, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -8136,7 +8150,7 @@ Transform:
   - {fileID: 1449459554}
   m_Father: {fileID: 84426479}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0.02999282, z: 0}
+  m_LocalEulerAnglesHint: {x: 322.6439, y: 356.705, z: 1.114175}
 --- !u!1 &1104990600
 GameObject:
   m_ObjectHideFlags: 0
@@ -23447,7 +23461,7 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 94aa150934e3b544bb0b0797c7824f29, type: 2}
+  - {fileID: 2100000, guid: 3d45c2cd0b0cebe40b2e3f21cc04351a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

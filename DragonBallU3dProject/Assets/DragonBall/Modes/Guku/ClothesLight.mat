@@ -81,10 +81,10 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Outline: 0.029
+    - _Outline: 0.041
     - _Parallax: 0.02
     - _RimMax: 1
-    - _RimMin: 0.26
+    - _RimMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularScale: 0
@@ -97,11 +97,11 @@ Material:
     - Color_13052B57: {r: 0.33962274, g: 0.33962274, b: 0.33962274, a: 1}
     - Color_B91AA898: {r: 0.6037736, g: 0.18971005, b: 0.05980776, a: 0}
     - Vector3_20AC85FA: {r: 1, g: 1, b: 0, a: 0}
-    - _Color: {r: 1, g: 0.73386127, b: 0.062745094, a: 1}
+    - _Color: {r: 0.972549, g: 0.6123743, b: 0.18823528, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HColor: {r: 0.7830189, g: 0.6207555, b: 0.5798772, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 3.9533494, g: 3.8705568, b: 0.4760578, a: 0.6}
-    - _SColor: {r: 0.8207547, g: 0.46526033, b: 0.14324492, a: 1}
+    - _RimColor: {r: 0.4301798, g: 0.42784134, b: 0.046670463, a: 0.6}
+    - _SColor: {r: 0.74509805, g: 0.3701135, b: 0.16470586, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular: {r: 1, g: 1, b: 1, a: 1}
