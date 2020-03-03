@@ -5016,10 +5016,18 @@ PlayableDirector:
     value: {fileID: 616057548}
   - key: {fileID: 114661777404663486, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
     value: {fileID: 616057546}
-  - key: {fileID: 114828609831592406, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 748066869}
-  - key: {fileID: 114910891444268284, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 896784904}
+  - key: {fileID: 114315152232825518, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
+    value: {fileID: 1744261995}
+  - key: {fileID: 114720762106625790, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
+    value: {fileID: 896784904}
+  - key: {fileID: 114573083497609276, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
+    value: {fileID: 111307738}
+  - key: {fileID: 114344270661074244, guid: 5d221da7cac190145bcbb4822cd73a78, type: 2}
+    value: {fileID: 1743182377}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &84426479
@@ -5035,8 +5043,8 @@ Transform:
   - {fileID: 5753496732527309062}
   - {fileID: 715100871}
   - {fileID: 1104990599}
-  - {fileID: 1842485572}
   - {fileID: 949128319}
+  - {fileID: 1842485572}
   - {fileID: 700308428}
   - {fileID: 1601946795}
   - {fileID: 616057543}
@@ -5101,12 +5109,32 @@ Prefab:
       propertyPath: SubModule.subEmitters.Array.data[0].emitter
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1104990599}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: speed
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: initPos
+      value: 
+      objectReference: {fileID: 212858705}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902a04a99aaf9634abaaac95d03c805d, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &86945664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4425254571593010, guid: 902a04a99aaf9634abaaac95d03c805d,
+    type: 2}
+  m_PrefabInternal: {fileID: 86945663}
+--- !u!1 &111307738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1984669206692922, guid: 902a04a99aaf9634abaaac95d03c805d,
     type: 2}
   m_PrefabInternal: {fileID: 86945663}
 --- !u!1 &122992759
@@ -5183,6 +5211,21 @@ Prefab:
       propertyPath: SubModule.subEmitters.Array.data[0].emitter
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1104990599}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: initPos
+      value: 
+      objectReference: {fileID: 2097758226}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902a04a99aaf9634abaaac95d03c805d, type: 2}
   m_IsPrefabAsset: 0
@@ -20398,6 +20441,21 @@ Prefab:
       propertyPath: SubModule.subEmitters.Array.data[0].emitter
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1104990599}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: initPos
+      value: 
+      objectReference: {fileID: 748066868}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902a04a99aaf9634abaaac95d03c805d, type: 2}
   m_IsPrefabAsset: 0
@@ -20485,7 +20543,7 @@ Transform:
   m_Children:
   - {fileID: 1444199716}
   m_Father: {fileID: 84426479}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977663507
 GameObject:
@@ -52320,6 +52378,16 @@ Transform:
   m_Father: {fileID: 1368619814}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1743182377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1984669206692922, guid: 902a04a99aaf9634abaaac95d03c805d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1775711075}
+--- !u!1 &1744261995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1984669206692922, guid: 902a04a99aaf9634abaaac95d03c805d,
+    type: 2}
+  m_PrefabInternal: {fileID: 127850789}
 --- !u!1001 &1775711075
 Prefab:
   m_ObjectHideFlags: 0
@@ -52364,6 +52432,21 @@ Prefab:
       propertyPath: SubModule.subEmitters.Array.data[0].emitter
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: initPos
+      value: 
+      objectReference: {fileID: 2089478890}
+    - target: {fileID: 114938628778617138, guid: 902a04a99aaf9634abaaac95d03c805d,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1104990599}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902a04a99aaf9634abaaac95d03c805d, type: 2}
   m_IsPrefabAsset: 0
