@@ -91,6 +91,8 @@ ModelImporter:
     7400000: Default Take
     7400002: move_fast_wukong
     7400004: move_low_xiaobu
+    7400006: idle
+    7400008: move_fast_forward_inAir
     9500000: //RootNode
     13700000: GoKu
     13700002: Hair
@@ -146,7 +148,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1.2
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

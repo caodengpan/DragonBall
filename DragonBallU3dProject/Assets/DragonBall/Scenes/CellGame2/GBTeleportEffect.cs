@@ -11,7 +11,11 @@ public class GBTeleportEffect : MonoBehaviour
     private bool canUpdate;
     private void OnEnable()
     {
-        effect.Play();
+        if (effect != null)
+        {
+            effect.Play();
+        }
+        
         canUpdate = true;
     }
 
@@ -35,6 +39,10 @@ public class GBTeleportEffect : MonoBehaviour
     {
         smr.enabled = false;
         timer = 0;
-        effect.Play();
+        if (effect != null)
+        {
+            effect.Play();
+        }
+            
     }
 }
