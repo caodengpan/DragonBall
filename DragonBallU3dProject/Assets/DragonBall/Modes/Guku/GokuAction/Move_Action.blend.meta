@@ -93,6 +93,7 @@ ModelImporter:
     7400004: move_low_xiaobu
     7400006: idle
     7400008: move_fast_forward_inAir
+    7400010: move_fast_back_inAir
     9500000: //RootNode
     13700000: GoKu
     13700002: Hair
