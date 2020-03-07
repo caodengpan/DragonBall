@@ -9676,7 +9676,7 @@ Transform:
   m_GameObject: {fileID: 54435242}
   m_LocalRotation: {x: -0.00000003725288, y: 0.00000010430808, z: -0.000000029802322,
     w: 1}
-  m_LocalPosition: {x: 3.878561, y: -0.5173789, z: -2.937619}
+  m_LocalPosition: {x: 1.9161935, y: 0.8589823, z: -1.8763733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 187842951}
@@ -9949,6 +9949,8 @@ PlayableDirector:
     value: {fileID: 2151454}
   - key: {fileID: 114422976714790822, guid: 15a926513d8a44644ba79a2a6071f5fe, type: 2}
     value: {fileID: 2151450}
+  - key: {fileID: 114620805171826330, guid: 15a926513d8a44644ba79a2a6071f5fe, type: 2}
+    value: {fileID: 5753496732527309061}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &84426479
@@ -34613,15 +34615,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4816642137120072, guid: 905531fbf0839cd4fa3b3a871ec3b7ba, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.7913691
+      value: -0.76710457
       objectReference: {fileID: 0}
     - target: {fileID: 4816642137120072, guid: 905531fbf0839cd4fa3b3a871ec3b7ba, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.8965652
+      value: -1.9217844
       objectReference: {fileID: 0}
     - target: {fileID: 4816642137120072, guid: 905531fbf0839cd4fa3b3a871ec3b7ba, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.815828
+      value: -2.850552
       objectReference: {fileID: 0}
     - target: {fileID: 198682423790374108, guid: 905531fbf0839cd4fa3b3a871ec3b7ba,
         type: 2}
@@ -35211,14 +35213,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5753496732527309059}
-  m_LocalRotation: {x: -0.0062675755, y: 0.9255741, z: -0.015336306, w: -0.37820366}
-  m_LocalPosition: {x: 21.146692, y: 5.1197586, z: -34.615135}
+  m_LocalRotation: {x: 0.06947263, y: 0.7183116, z: -0.07248932, w: 0.68843836}
+  m_LocalPosition: {x: -92.73284, y: 21.150414, z: 12.210094}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1204614452}
   m_Father: {fileID: 84426479}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.000000009744156, y: 0.494157, z: 0.00000004426599}
+  m_LocalEulerAnglesHint: {x: -0.0000005877705, y: -0.00000006188947, z: -0.0000006132755}
 --- !u!124 &5753496732527309063
 Behaviour:
   m_ObjectHideFlags: 0
