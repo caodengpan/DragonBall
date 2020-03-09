@@ -33,8 +33,8 @@ public class TLController : MonoBehaviour {
         Camera[] cams = SceneView.GetAllSceneCameras();
         if (cams.Length > 0)
         {
-            Camera.main.transform.position =cams[0].transform.position;
-            Camera.main.transform.eulerAngles = cams[0].transform.eulerAngles;
+            Camera.main.transform.parent.position =cams[0].transform.position;
+            Camera.main.transform.parent.eulerAngles = cams[0].transform.eulerAngles;
         }
     }
 
