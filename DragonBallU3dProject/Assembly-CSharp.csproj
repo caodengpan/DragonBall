@@ -67,7 +67,9 @@
      <Compile Include="Assets\DragonBall\Environment\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\DragonBall\Scenes\CellGame2\AnimEvenFuncs.cs" />
      <Compile Include="Assets\DragonBall\Scenes\CellGame2\GBTeleportEffect.cs" />
+     <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\CameraShake.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\DBAirBall.cs" />
+     <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\DBBigExplode.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMove.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMoveBehaviour.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLTurnState.cs" />

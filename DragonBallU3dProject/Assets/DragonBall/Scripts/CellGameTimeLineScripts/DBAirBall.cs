@@ -40,7 +40,6 @@ public class DBAirBall : MonoBehaviour {
     private void OnDisable()
     {
         transform.position = initPos.position;
-        transform.SetParent(initPos);
     }
 
 }
