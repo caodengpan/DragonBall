@@ -70,6 +70,7 @@
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\CameraShake.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\DBAirBall.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\DBBigExplode.cs" />
+     <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\DBCreateLitBall.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMove.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLMoveBehaviour.cs" />
      <Compile Include="Assets\DragonBall\Scripts\CellGameTimeLineScripts\TLTurnState.cs" />
