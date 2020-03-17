@@ -90,6 +90,7 @@ ModelImporter:
     4300002: Hair
     7400000: Default Take
     7400002: envade_front_up_front_middle_inAir
+    7400004: evade_front_middle
     9500000: //RootNode
     13700000: GoKu
     13700002: Hair
@@ -145,7 +146,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1.2
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

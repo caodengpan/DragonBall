@@ -100,6 +100,7 @@ ModelImporter:
     7400008: atk_foot_R_front_up_YdirFly
     7400010: atk_foot_R_L_front_middle
     7400012: atk_foot_R_left_up_inAir
+    7400014: atk_foot_L_front_middle_front_up_inAir_hard
     9500000: //RootNode
     13700000: GoKu
     13700002: Hair
@@ -133,10 +134,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default Take
-      takeName: Default Take
+      name: atk_foot_L_front_middle_front_up_inAir_hard
+      takeName: atk_foot_L_front_middle_front_up_inAir_hard
       firstFrame: 0
-      lastFrame: 249
+      lastFrame: 14
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
