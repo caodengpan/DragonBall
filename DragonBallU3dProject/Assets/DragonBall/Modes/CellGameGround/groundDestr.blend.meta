@@ -69,6 +69,64 @@ ModelImporter:
     100126: part2_cell_066
     100128: part2_cell_067
     100130: part2_cell_068
+    100132: part1_cell.001
+    100134: part1_cell.002
+    100136: part1_cell.003
+    100138: part1_cell.004
+    100140: part1_cell.005
+    100142: part1_cell.006
+    100144: part1_cell.007
+    100146: part1_cell.008
+    100148: part1_cell.009
+    100150: part1_cell.010
+    100152: part1_cell.011
+    100154: part1_cell.012
+    100156: part1_cell.013
+    100158: part1_cell.014
+    100160: part1_cell.015
+    100162: part1_cell.016
+    100164: part1_cell.017
+    100166: part1_cell.018
+    100168: part1_cell.019
+    100170: part1_cell.020
+    100172: part1_cell.021
+    100174: part1_cell.022
+    100176: part2_cell.001
+    100178: part2_cell.003
+    100180: part2_cell.004
+    100182: part2_cell.006
+    100184: part2_cell.008
+    100186: part2_cell.009
+    100188: part2_cell.011
+    100190: part2_cell.012
+    100192: part2_cell.013
+    100194: part2_cell.018
+    100196: part2_cell.019
+    100198: part2_cell.020
+    100200: part2_cell.021
+    100202: part2_cell.026
+    100204: part2_cell.027
+    100206: part2_cell.030
+    100208: part2_cell.033
+    100210: part2_cell.036
+    100212: part2_cell.037
+    100214: part2_cell.038
+    100216: part2_cell.040
+    100218: part2_cell.042
+    100220: part2_cell.044
+    100222: part2_cell.045
+    100224: part2_cell.046
+    100226: part2_cell.049
+    100228: part2_cell.052
+    100230: part2_cell.054
+    100232: part2_cell.055
+    100234: part2_cell.059
+    100236: part2_cell.060
+    100238: part2_cell.063
+    100240: part2_cell.065
+    100242: part2_cell.066
+    100244: part2_cell.067
+    100246: part2_cell.068
     400000: Cylinder
     400002: //RootNode
     400004: Plane
@@ -135,8 +193,67 @@ ModelImporter:
     400126: part2_cell_066
     400128: part2_cell_067
     400130: part2_cell_068
+    400132: part1_cell.001
+    400134: part1_cell.002
+    400136: part1_cell.003
+    400138: part1_cell.004
+    400140: part1_cell.005
+    400142: part1_cell.006
+    400144: part1_cell.007
+    400146: part1_cell.008
+    400148: part1_cell.009
+    400150: part1_cell.010
+    400152: part1_cell.011
+    400154: part1_cell.012
+    400156: part1_cell.013
+    400158: part1_cell.014
+    400160: part1_cell.015
+    400162: part1_cell.016
+    400164: part1_cell.017
+    400166: part1_cell.018
+    400168: part1_cell.019
+    400170: part1_cell.020
+    400172: part1_cell.021
+    400174: part1_cell.022
+    400176: part2_cell.001
+    400178: part2_cell.003
+    400180: part2_cell.004
+    400182: part2_cell.006
+    400184: part2_cell.008
+    400186: part2_cell.009
+    400188: part2_cell.011
+    400190: part2_cell.012
+    400192: part2_cell.013
+    400194: part2_cell.018
+    400196: part2_cell.019
+    400198: part2_cell.020
+    400200: part2_cell.021
+    400202: part2_cell.026
+    400204: part2_cell.027
+    400206: part2_cell.030
+    400208: part2_cell.033
+    400210: part2_cell.036
+    400212: part2_cell.037
+    400214: part2_cell.038
+    400216: part2_cell.040
+    400218: part2_cell.042
+    400220: part2_cell.044
+    400222: part2_cell.045
+    400224: part2_cell.046
+    400226: part2_cell.049
+    400228: part2_cell.052
+    400230: part2_cell.054
+    400232: part2_cell.055
+    400234: part2_cell.059
+    400236: part2_cell.060
+    400238: part2_cell.063
+    400240: part2_cell.065
+    400242: part2_cell.066
+    400244: part2_cell.067
+    400246: part2_cell.068
     2100000: unnamed
     2100002: None__CellGameGround_001
+    2100004: No Name
     2300000: Cylinder
     2300002: Plane
     2300004: Icosphere
@@ -200,6 +317,64 @@ ModelImporter:
     2300120: part2_cell_066
     2300122: part2_cell_067
     2300124: part2_cell_068
+    2300126: part1_cell.001
+    2300128: part1_cell.002
+    2300130: part1_cell.003
+    2300132: part1_cell.004
+    2300134: part1_cell.005
+    2300136: part1_cell.006
+    2300138: part1_cell.007
+    2300140: part1_cell.008
+    2300142: part1_cell.009
+    2300144: part1_cell.010
+    2300146: part1_cell.011
+    2300148: part1_cell.012
+    2300150: part1_cell.013
+    2300152: part1_cell.014
+    2300154: part1_cell.015
+    2300156: part1_cell.016
+    2300158: part1_cell.017
+    2300160: part1_cell.018
+    2300162: part1_cell.019
+    2300164: part1_cell.020
+    2300166: part1_cell.021
+    2300168: part1_cell.022
+    2300170: part2_cell.001
+    2300172: part2_cell.003
+    2300174: part2_cell.004
+    2300176: part2_cell.006
+    2300178: part2_cell.008
+    2300180: part2_cell.009
+    2300182: part2_cell.011
+    2300184: part2_cell.012
+    2300186: part2_cell.013
+    2300188: part2_cell.018
+    2300190: part2_cell.019
+    2300192: part2_cell.020
+    2300194: part2_cell.021
+    2300196: part2_cell.026
+    2300198: part2_cell.027
+    2300200: part2_cell.030
+    2300202: part2_cell.033
+    2300204: part2_cell.036
+    2300206: part2_cell.037
+    2300208: part2_cell.038
+    2300210: part2_cell.040
+    2300212: part2_cell.042
+    2300214: part2_cell.044
+    2300216: part2_cell.045
+    2300218: part2_cell.046
+    2300220: part2_cell.049
+    2300222: part2_cell.052
+    2300224: part2_cell.054
+    2300226: part2_cell.055
+    2300228: part2_cell.059
+    2300230: part2_cell.060
+    2300232: part2_cell.063
+    2300234: part2_cell.065
+    2300236: part2_cell.066
+    2300238: part2_cell.067
+    2300240: part2_cell.068
     3300000: Cylinder
     3300002: Plane
     3300004: Icosphere
@@ -263,6 +438,64 @@ ModelImporter:
     3300120: part2_cell_066
     3300122: part2_cell_067
     3300124: part2_cell_068
+    3300126: part1_cell.001
+    3300128: part1_cell.002
+    3300130: part1_cell.003
+    3300132: part1_cell.004
+    3300134: part1_cell.005
+    3300136: part1_cell.006
+    3300138: part1_cell.007
+    3300140: part1_cell.008
+    3300142: part1_cell.009
+    3300144: part1_cell.010
+    3300146: part1_cell.011
+    3300148: part1_cell.012
+    3300150: part1_cell.013
+    3300152: part1_cell.014
+    3300154: part1_cell.015
+    3300156: part1_cell.016
+    3300158: part1_cell.017
+    3300160: part1_cell.018
+    3300162: part1_cell.019
+    3300164: part1_cell.020
+    3300166: part1_cell.021
+    3300168: part1_cell.022
+    3300170: part2_cell.001
+    3300172: part2_cell.003
+    3300174: part2_cell.004
+    3300176: part2_cell.006
+    3300178: part2_cell.008
+    3300180: part2_cell.009
+    3300182: part2_cell.011
+    3300184: part2_cell.012
+    3300186: part2_cell.013
+    3300188: part2_cell.018
+    3300190: part2_cell.019
+    3300192: part2_cell.020
+    3300194: part2_cell.021
+    3300196: part2_cell.026
+    3300198: part2_cell.027
+    3300200: part2_cell.030
+    3300202: part2_cell.033
+    3300204: part2_cell.036
+    3300206: part2_cell.037
+    3300208: part2_cell.038
+    3300210: part2_cell.040
+    3300212: part2_cell.042
+    3300214: part2_cell.044
+    3300216: part2_cell.045
+    3300218: part2_cell.046
+    3300220: part2_cell.049
+    3300222: part2_cell.052
+    3300224: part2_cell.054
+    3300226: part2_cell.055
+    3300228: part2_cell.059
+    3300230: part2_cell.060
+    3300232: part2_cell.063
+    3300234: part2_cell.065
+    3300236: part2_cell.066
+    3300238: part2_cell.067
+    3300240: part2_cell.068
     4300000: Cylinder
     4300002: Plane
     4300004: Icosphere
@@ -326,6 +559,64 @@ ModelImporter:
     4300120: part2_cell_003
     4300122: part2_cell_001
     4300124: part2_cell
+    4300126: part1_cell.022
+    4300128: part1_cell.021
+    4300130: part1_cell.020
+    4300132: part1_cell.019
+    4300134: part1_cell.018
+    4300136: part1_cell.017
+    4300138: part1_cell.016
+    4300140: part1_cell.015
+    4300142: part1_cell.014
+    4300144: part1_cell.013
+    4300146: part1_cell.012
+    4300148: part1_cell.011
+    4300150: part1_cell.010
+    4300152: part1_cell.009
+    4300154: part1_cell.008
+    4300156: part1_cell.007
+    4300158: part1_cell.006
+    4300160: part1_cell.005
+    4300162: part1_cell.004
+    4300164: part1_cell.003
+    4300166: part1_cell.002
+    4300168: part1_cell.001
+    4300170: part2_cell.068
+    4300172: part2_cell.067
+    4300174: part2_cell.066
+    4300176: part2_cell.065
+    4300178: part2_cell.063
+    4300180: part2_cell.060
+    4300182: part2_cell.059
+    4300184: part2_cell.055
+    4300186: part2_cell.054
+    4300188: part2_cell.052
+    4300190: part2_cell.049
+    4300192: part2_cell.046
+    4300194: part2_cell.045
+    4300196: part2_cell.044
+    4300198: part2_cell.042
+    4300200: part2_cell.040
+    4300202: part2_cell.038
+    4300204: part2_cell.037
+    4300206: part2_cell.036
+    4300208: part2_cell.033
+    4300210: part2_cell.030
+    4300212: part2_cell.027
+    4300214: part2_cell.026
+    4300216: part2_cell.021
+    4300218: part2_cell.020
+    4300220: part2_cell.019
+    4300222: part2_cell.018
+    4300224: part2_cell.013
+    4300226: part2_cell.012
+    4300228: part2_cell.011
+    4300230: part2_cell.009
+    4300232: part2_cell.008
+    4300234: part2_cell.006
+    4300236: part2_cell.004
+    4300238: part2_cell.003
+    4300240: part2_cell.001
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -373,6 +664,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -397,6 +689,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

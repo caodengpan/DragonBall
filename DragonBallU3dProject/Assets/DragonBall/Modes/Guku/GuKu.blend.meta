@@ -60,6 +60,54 @@ ModelImporter:
     100108: hand_R_004
     100110: spine_007
     100112: Cell
+    100114: breast.L
+    100116: breast.L_end
+    100118: breast.R
+    100120: breast.R_end
+    100122: Camera
+    100124: foot.L
+    100126: foot.R
+    100128: forearm.L
+    100130: forearm.R
+    100132: hand.L
+    100134: hand.L.001
+    100136: hand.L.002
+    100138: hand.L.003
+    100140: hand.L.003_end
+    100142: hand.L.004
+    100144: hand.L.004_end
+    100146: hand.R
+    100148: hand.R.001
+    100150: hand.R.002
+    100152: hand.R.003
+    100154: hand.R.003_end
+    100156: hand.R.004
+    100158: hand.R.004_end
+    100160: Lamp
+    100162: pelvis.L
+    100164: pelvis.L_end
+    100166: pelvis.R
+    100168: pelvis.R_end
+    100170: Plane.001
+    100172: shin.L
+    100174: shin.R
+    100176: shoulder.L
+    100178: shoulder.R
+    100180: spine.001
+    100182: spine.002
+    100184: spine.003
+    100186: spine.005
+    100188: spine.006
+    100190: spine.007
+    100192: spine.007_end
+    100194: thigh.L
+    100196: thigh.R
+    100198: toe.L
+    100200: toe.L_end
+    100202: toe.R
+    100204: toe.R_end
+    100206: upper_arm.L
+    100208: upper_arm.R
     400000: breast_L
     400002: breast_R
     400004: foot_L
@@ -117,6 +165,55 @@ ModelImporter:
     400108: hand_R_004
     400110: spine_007
     400112: Cell
+    400114: breast.L
+    400116: breast.L_end
+    400118: breast.R
+    400120: breast.R_end
+    400122: Camera
+    400124: foot.L
+    400126: foot.R
+    400128: forearm.L
+    400130: forearm.R
+    400132: hand.L
+    400134: hand.L.001
+    400136: hand.L.002
+    400138: hand.L.003
+    400140: hand.L.003_end
+    400142: hand.L.004
+    400144: hand.L.004_end
+    400146: hand.R
+    400148: hand.R.001
+    400150: hand.R.002
+    400152: hand.R.003
+    400154: hand.R.003_end
+    400156: hand.R.004
+    400158: hand.R.004_end
+    400160: Lamp
+    400162: pelvis.L
+    400164: pelvis.L_end
+    400166: pelvis.R
+    400168: pelvis.R_end
+    400170: Plane.001
+    400172: shin.L
+    400174: shin.R
+    400176: shoulder.L
+    400178: shoulder.R
+    400180: spine.001
+    400182: spine.002
+    400184: spine.003
+    400186: spine.005
+    400188: spine.006
+    400190: spine.007
+    400192: spine.007_end
+    400194: thigh.L
+    400196: thigh.R
+    400198: toe.L
+    400200: toe.L_end
+    400202: toe.R
+    400204: toe.R_end
+    400206: upper_arm.L
+    400208: upper_arm.R
+    2000000: Camera
     2100000: skin
     2100002: clothes
     2100004: sweat
@@ -133,15 +230,24 @@ ModelImporter:
     2100026: clothes_001
     2100028: hair_001
     2100030: gloves_001
+    2100032: No Name
+    2100034: skin.001
+    2100036: clothes.001
+    2100038: sweat.001
+    2100040: hair.001
+    2100042: gloves.001
     2300000: Plane_001
     2300002: Cell
+    2300004: Plane.001
     3300000: Plane_001
     3300002: Cell
+    3300004: Plane.001
     4300000: Plane
     4300002: Plane_001
     4300004: Hair
     4300006: GoKu
     4300008: Cell
+    4300010: Plane.001
     7400000: Default Take
     7400002: metarigAction
     7400004: PoseLib
@@ -210,11 +316,42 @@ ModelImporter:
     7400130: atk_foot_R_front_up_YdirFly
     7400132: atk_foot_R_front_down_ground_round
     9500000: //RootNode
+    10800000: Lamp
     13700000: Plane
     13700002: Hair
     13700004: GoKu
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b306f65e24d3515419402bb18f2364a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clothes.001
+    second: {fileID: 2100000, guid: 011c7e0071fb9494ea2ca99b170359a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves.001
+    second: {fileID: 2100000, guid: 1812b0ed28a7b9342bb0afaab0461e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair.001
+    second: {fileID: 2100000, guid: 666f0a2344fc3d344acc11748550c87a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin.001
+    second: {fileID: 2100000, guid: 2fcc30f0d53ebd24c81364a5bc283502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sweat.001
+    second: {fileID: 2100000, guid: 44726fd68e7342c4da3982a5ba29e09b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -1172,6 +1309,7 @@ ModelImporter:
     globalScale: 1.2
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -1196,6 +1334,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

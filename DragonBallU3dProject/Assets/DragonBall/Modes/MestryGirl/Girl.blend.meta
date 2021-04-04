@@ -46,6 +46,45 @@ ModelImporter:
     100080: toe_R
     100082: upper_arm_L
     100084: upper_arm_R
+    100086: breast.L
+    100088: breast.L_end
+    100090: breast.R
+    100092: breast.R_end
+    100094: Camera
+    100096: foot.L
+    100098: foot.R
+    100100: forearm.L
+    100102: forearm.R
+    100104: hand.L
+    100106: hand.L_end
+    100108: hand.R
+    100110: hand.R_end
+    100112: Lamp
+    100114: pelvis.L
+    100116: pelvis.L_end
+    100118: pelvis.R
+    100120: pelvis.R_end
+    100122: shin.L
+    100124: shin.R
+    100126: shoulder.L
+    100128: shoulder.R
+    100130: spine.001
+    100132: spine.002
+    100134: spine.003
+    100136: spine.004
+    100138: spine.005
+    100140: spine.006
+    100142: spine.007
+    100144: spine.008
+    100146: spine.008_end
+    100148: thigh.L
+    100150: thigh.R
+    100152: toe.L
+    100154: toe.L_end
+    100156: toe.R
+    100158: toe.R_end
+    100160: upper_arm.L
+    100162: upper_arm.R
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -89,6 +128,46 @@ ModelImporter:
     400080: toe_R
     400082: upper_arm_L
     400084: upper_arm_R
+    400086: breast.L
+    400088: breast.L_end
+    400090: breast.R
+    400092: breast.R_end
+    400094: Camera
+    400096: foot.L
+    400098: foot.R
+    400100: forearm.L
+    400102: forearm.R
+    400104: hand.L
+    400106: hand.L_end
+    400108: hand.R
+    400110: hand.R_end
+    400112: Lamp
+    400114: pelvis.L
+    400116: pelvis.L_end
+    400118: pelvis.R
+    400120: pelvis.R_end
+    400122: shin.L
+    400124: shin.R
+    400126: shoulder.L
+    400128: shoulder.R
+    400130: spine.001
+    400132: spine.002
+    400134: spine.003
+    400136: spine.004
+    400138: spine.005
+    400140: spine.006
+    400142: spine.007
+    400144: spine.008
+    400146: spine.008_end
+    400148: thigh.L
+    400150: thigh.R
+    400152: toe.L
+    400154: toe.L_end
+    400156: toe.R
+    400158: toe.R_end
+    400160: upper_arm.L
+    400162: upper_arm.R
+    2000000: Camera
     2100000: girdle
     2100002: sweat
     2100004: trousers
@@ -134,6 +213,7 @@ ModelImporter:
     4300022: Hat
     7400000: Default Take
     9500000: //RootNode
+    10800000: Lamp
     13700000: Body
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -170,6 +250,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -194,6 +275,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

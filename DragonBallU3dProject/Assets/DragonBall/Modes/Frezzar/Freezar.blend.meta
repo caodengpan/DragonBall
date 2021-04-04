@@ -46,6 +46,59 @@ ModelImporter:
     100080: toe_R
     100082: upper_arm_L
     100084: upper_arm_R
+    100086: breast.L
+    100088: breast.L_end
+    100090: breast.R
+    100092: breast.R_end
+    100094: Camera
+    100096: foot.L
+    100098: foot.R
+    100100: forearm.L
+    100102: forearm.L.002
+    100104: forearm.L.003
+    100106: forearm.L.004
+    100108: forearm.L.004_end
+    100110: forearm.R
+    100112: forearm.R.002
+    100114: forearm.R.003
+    100116: forearm.R.004
+    100118: forearm.R.004_end
+    100120: hand.L
+    100122: hand.L.001
+    100124: hand.L.001_end
+    100126: hand.R
+    100128: hand.R.001
+    100130: hand.R.001_end
+    100132: Lamp
+    100134: pelvis.L
+    100136: pelvis.L.001
+    100138: pelvis.L.002
+    100140: pelvis.L.003
+    100142: pelvis.L.003_end
+    100144: pelvis.L.004
+    100146: pelvis.L.005
+    100148: pelvis.L.005_end
+    100150: pelvis.R
+    100152: pelvis.R_end
+    100154: shin.L
+    100156: shin.R
+    100158: shoulder.L
+    100160: shoulder.R
+    100162: spine.001
+    100164: spine.002
+    100166: spine.003
+    100168: spine.004
+    100170: spine.005
+    100172: spine.006
+    100174: spine.006_end
+    100176: thigh.L
+    100178: thigh.R
+    100180: toe.L
+    100182: toe.L_end
+    100184: toe.R
+    100186: toe.R_end
+    100188: upper_arm.L
+    100190: upper_arm.R
     400000: breast_L
     400002: breast_R
     400004: foot_L
@@ -89,13 +142,70 @@ ModelImporter:
     400080: toe_R
     400082: upper_arm_L
     400084: upper_arm_R
+    400086: breast.L
+    400088: breast.L_end
+    400090: breast.R
+    400092: breast.R_end
+    400094: Camera
+    400096: foot.L
+    400098: foot.R
+    400100: forearm.L
+    400102: forearm.L.002
+    400104: forearm.L.003
+    400106: forearm.L.004
+    400108: forearm.L.004_end
+    400110: forearm.R
+    400112: forearm.R.002
+    400114: forearm.R.003
+    400116: forearm.R.004
+    400118: forearm.R.004_end
+    400120: hand.L
+    400122: hand.L.001
+    400124: hand.L.001_end
+    400126: hand.R
+    400128: hand.R.001
+    400130: hand.R.001_end
+    400132: Lamp
+    400134: pelvis.L
+    400136: pelvis.L.001
+    400138: pelvis.L.002
+    400140: pelvis.L.003
+    400142: pelvis.L.003_end
+    400144: pelvis.L.004
+    400146: pelvis.L.005
+    400148: pelvis.L.005_end
+    400150: pelvis.R
+    400152: pelvis.R_end
+    400154: shin.L
+    400156: shin.R
+    400158: shoulder.L
+    400160: shoulder.R
+    400162: spine.001
+    400164: spine.002
+    400166: spine.003
+    400168: spine.004
+    400170: spine.005
+    400172: spine.006
+    400174: spine.006_end
+    400176: thigh.L
+    400178: thigh.R
+    400180: toe.L
+    400182: toe.L_end
+    400184: toe.R
+    400186: toe.R_end
+    400188: upper_arm.L
+    400190: upper_arm.R
+    2000000: Camera
     2100000: skin
     2100002: hair
     2100004: purple
+    2100006: trousers
     4300000: Plane
     7400000: Default Take
     7400002: metarigAction_001
+    7400004: metarig|metarigAction.001
     9500000: //RootNode
+    10800000: Lamp
     13700000: Plane
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -132,6 +242,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -156,6 +267,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

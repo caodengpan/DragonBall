@@ -45,6 +45,58 @@ ModelImporter:
     100078: upper_arm_R
     100080: Cell
     100082: metarig
+    100084: breast.L
+    100086: breast.L_end
+    100088: breast.R
+    100090: breast.R_end
+    100092: Camera
+    100094: foot.L
+    100096: foot.R
+    100098: forearm.L
+    100100: forearm.R
+    100102: hand.L
+    100104: hand.L.001
+    100106: hand.L.002
+    100108: hand.L.003
+    100110: hand.L.003_end
+    100112: hand.L.004
+    100114: hand.L.004_end
+    100116: hand.R
+    100118: hand.R.001
+    100120: hand.R.002
+    100122: hand.R.003
+    100124: hand.R.003_end
+    100126: hand.R.004
+    100128: hand.R.004_end
+    100130: pelvis.L
+    100132: pelvis.L_end
+    100134: pelvis.R
+    100136: pelvis.R_end
+    100138: shin.L
+    100140: shin.R
+    100142: shoulder.L
+    100144: shoulder.R
+    100146: spine.001
+    100148: spine.002
+    100150: spine.002_L
+    100152: spine.002_L_end
+    100154: spine.002_R
+    100156: spine.002_R_end
+    100158: spine.003
+    100160: spine.004
+    100162: spine.004_end
+    100164: spine.005
+    100166: spine.006
+    100168: spine.006_end
+    100170: Sun_L_Lib
+    100172: thigh.L
+    100174: thigh.R
+    100176: toe.L
+    100178: toe.L_end
+    100180: toe.R
+    100182: toe.R_end
+    100184: upper_arm.L
+    100186: upper_arm.R
     400000: breast_L
     400002: breast_R
     400004: Cell_proxy
@@ -87,6 +139,58 @@ ModelImporter:
     400078: upper_arm_R
     400080: Cell
     400082: metarig
+    400084: breast.L
+    400086: breast.L_end
+    400088: breast.R
+    400090: breast.R_end
+    400092: Camera
+    400094: foot.L
+    400096: foot.R
+    400098: forearm.L
+    400100: forearm.R
+    400102: hand.L
+    400104: hand.L.001
+    400106: hand.L.002
+    400108: hand.L.003
+    400110: hand.L.003_end
+    400112: hand.L.004
+    400114: hand.L.004_end
+    400116: hand.R
+    400118: hand.R.001
+    400120: hand.R.002
+    400122: hand.R.003
+    400124: hand.R.003_end
+    400126: hand.R.004
+    400128: hand.R.004_end
+    400130: pelvis.L
+    400132: pelvis.L_end
+    400134: pelvis.R
+    400136: pelvis.R_end
+    400138: shin.L
+    400140: shin.R
+    400142: shoulder.L
+    400144: shoulder.R
+    400146: spine.001
+    400148: spine.002
+    400150: spine.002_L
+    400152: spine.002_L_end
+    400154: spine.002_R
+    400156: spine.002_R_end
+    400158: spine.003
+    400160: spine.004
+    400162: spine.004_end
+    400164: spine.005
+    400166: spine.006
+    400168: spine.006_end
+    400170: Sun_L_Lib
+    400172: thigh.L
+    400174: thigh.R
+    400176: toe.L
+    400178: toe.L_end
+    400180: toe.R
+    400182: toe.R_end
+    400184: upper_arm.L
+    400186: upper_arm.R
     2100000: girdle
     2100002: skin
     2100004: sweat
@@ -279,6 +383,7 @@ ModelImporter:
     globalScale: 1.4
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 0
@@ -303,6 +408,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

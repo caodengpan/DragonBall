@@ -49,6 +49,69 @@ ModelImporter:
     100086: upper_arm_L_001
     100088: upper_arm_R
     100090: upper_arm_R_001
+    100092: breast.L
+    100094: breast.L_end
+    100096: breast.R
+    100098: breast.R_end
+    100100: Camera
+    100102: foot.L
+    100104: foot.R
+    100106: forearm.L
+    100108: forearm.L.001
+    100110: forearm.L.001_end
+    100112: forearm.L.002
+    100114: forearm.L.003
+    100116: forearm.L.004
+    100118: forearm.L.004_end
+    100120: forearm.R
+    100122: forearm.R.001
+    100124: forearm.R.001_end
+    100126: forearm.R.002
+    100128: forearm.R.003
+    100130: forearm.R.004
+    100132: forearm.R.004_end
+    100134: hand.L
+    100136: hand.L.001
+    100138: hand.L.001_end
+    100140: hand.R
+    100142: hand.R.001
+    100144: hand.R.001_end
+    100146: Lamp
+    100148: pelvis.L
+    100150: pelvis.L_end
+    100152: pelvis.R
+    100154: pelvis.R_end
+    100156: shin.L
+    100158: shin.L.001
+    100160: shin.L.001_end
+    100162: shin.R
+    100164: shin.R.001
+    100166: shin.R.001_end
+    100168: shoulder.L
+    100170: shoulder.R
+    100172: spine.001
+    100174: spine.002
+    100176: spine.003
+    100178: spine.004
+    100180: spine.005
+    100182: spine.006
+    100184: spine.006_end
+    100186: thigh.L
+    100188: thigh.L.001
+    100190: thigh.L.001_end
+    100192: thigh.R
+    100194: thigh.R.001
+    100196: thigh.R.001_end
+    100198: toe.L
+    100200: toe.L_end
+    100202: toe.R
+    100204: toe.R_end
+    100206: upper_arm.L
+    100208: upper_arm.L.001
+    100210: upper_arm.L.001_end
+    100212: upper_arm.R
+    100214: upper_arm.R.001
+    100216: upper_arm.R.001_end
     400000: //RootNode
     400002: breast_L
     400004: breast_R
@@ -95,6 +158,70 @@ ModelImporter:
     400086: upper_arm_L_001
     400088: upper_arm_R
     400090: upper_arm_R_001
+    400092: breast.L
+    400094: breast.L_end
+    400096: breast.R
+    400098: breast.R_end
+    400100: Camera
+    400102: foot.L
+    400104: foot.R
+    400106: forearm.L
+    400108: forearm.L.001
+    400110: forearm.L.001_end
+    400112: forearm.L.002
+    400114: forearm.L.003
+    400116: forearm.L.004
+    400118: forearm.L.004_end
+    400120: forearm.R
+    400122: forearm.R.001
+    400124: forearm.R.001_end
+    400126: forearm.R.002
+    400128: forearm.R.003
+    400130: forearm.R.004
+    400132: forearm.R.004_end
+    400134: hand.L
+    400136: hand.L.001
+    400138: hand.L.001_end
+    400140: hand.R
+    400142: hand.R.001
+    400144: hand.R.001_end
+    400146: Lamp
+    400148: pelvis.L
+    400150: pelvis.L_end
+    400152: pelvis.R
+    400154: pelvis.R_end
+    400156: shin.L
+    400158: shin.L.001
+    400160: shin.L.001_end
+    400162: shin.R
+    400164: shin.R.001
+    400166: shin.R.001_end
+    400168: shoulder.L
+    400170: shoulder.R
+    400172: spine.001
+    400174: spine.002
+    400176: spine.003
+    400178: spine.004
+    400180: spine.005
+    400182: spine.006
+    400184: spine.006_end
+    400186: thigh.L
+    400188: thigh.L.001
+    400190: thigh.L.001_end
+    400192: thigh.R
+    400194: thigh.R.001
+    400196: thigh.R.001_end
+    400198: toe.L
+    400200: toe.L_end
+    400202: toe.R
+    400204: toe.R_end
+    400206: upper_arm.L
+    400208: upper_arm.L.001
+    400210: upper_arm.L.001_end
+    400212: upper_arm.R
+    400214: upper_arm.R.001
+    400216: upper_arm.R.001_end
+    2000000: Camera
     2100000: gloves
     2100002: skin
     2100004: clothes
@@ -123,6 +250,7 @@ ModelImporter:
     7400036: NormalAttack-4
     7400038: IdleInAir
     9500000: //RootNode
+    10800000: Lamp
     13700000: Plane
     2186277476908879412: ImportLogs
   externalObjects: {}
