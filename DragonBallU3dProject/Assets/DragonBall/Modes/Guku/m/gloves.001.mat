@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d4bf24b7761b0004eb101493820e909d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -72,15 +72,15 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimMax: 1
-    - _RimMin: 0.5
+    - _RimMin: 0.16
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _Color: {r: 0.7877358, g: 0.8612299, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _HColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
-    - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
-    - _SColor: {r: 0.29999998, g: 0.29999998, b: 0.29999998, a: 1}
+    - _HColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.9528302, g: 0.89499635, b: 0.33708617, a: 0.6}
+    - _SColor: {r: 0.62411004, g: 0.6328291, b: 0.7075472, a: 1}
