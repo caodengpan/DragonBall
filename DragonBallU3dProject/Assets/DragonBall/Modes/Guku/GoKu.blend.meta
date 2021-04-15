@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 1262c5a90f2a3024bb938180beffe137
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: b C Base
+    100004: b C Chest
+    100006: b C Head
+    100008: 'b C Head attached_Goku #4 b C Base'
+    100010: 'b C Head attached_Goku #4 b C Chest'
+    100012: 'b C Head attached_Goku #4 b C Head'
+    100014: 'b C Head attached_Goku #4 b C Neck1'
+    100016: 'b C Head attached_Goku #4 b C Pelvis'
+    100018: 'b C Head attached_Goku #4 b C Spine1'
+    100020: 'b C Head attached_Goku #4 b C Spine2'
+    100022: 'b C Head attached_Goku #4 EXP GOK 000'
+    100024: 'b C Head attached_Goku #4 f C FaceRoot'
+    100026: 'b C Head attached_Goku #4 f C Jaw'
+    100028: 'b C Head attached_Goku #4 f C JawHalf'
+    100030: 'b C Head attached_Goku #4 f C MouthBottom'
+    100032: 'b C Head attached_Goku #4 f C MouthBottom_end'
+    100034: 'b C Head attached_Goku #4 f C MouthTop'
+    100036: 'b C Head attached_Goku #4 f C MouthTop_end'
+    100038: 'b C Head attached_Goku #4 f C NoseTop'
+    100040: 'b C Head attached_Goku #4 f C NoseTop_end'
+    100042: 'b C Head attached_Goku #4 f C Tongue1'
+    100044: 'b C Head attached_Goku #4 f C Tongue2'
+    100046: 'b C Head attached_Goku #4 f C Tongue3'
+    100048: 'b C Head attached_Goku #4 f C Tongue4'
+    100050: 'b C Head attached_Goku #4 f C Tongue4_end'
+    100052: 'b C Head attached_Goku #4 f C ToothBottom'
+    100054: 'b C Head attached_Goku #4 f C ToothBottom_end'
+    100056: 'b C Head attached_Goku #4 f C ToothTop'
+    100058: 'b C Head attached_Goku #4 f C ToothTop_end'
+    100060: 'b C Head attached_Goku #4 f L CheekBottom'
+    100062: 'b C Head attached_Goku #4 f L CheekBottom_end'
+    100064: 'b C Head attached_Goku #4 f L CheekTop'
+    100066: 'b C Head attached_Goku #4 f L CheekTop_end'
+    100068: 'b C Head attached_Goku #4 f L EyeBrows1'
+    100070: 'b C Head attached_Goku #4 f L EyeBrows2'
+    100072: 'b C Head attached_Goku #4 f L EyeBrows3'
+    100074: 'b C Head attached_Goku #4 f L EyeBrowsHair1'
+    100076: 'b C Head attached_Goku #4 f L EyeBrowsHair1_end'
+    100078: 'b C Head attached_Goku #4 f L EyeBrowsHair2'
+    100080: 'b C Head attached_Goku #4 f L EyeBrowsHair2_end'
+    100082: 'b C Head attached_Goku #4 f L EyeBrowsHair3'
+    100084: 'b C Head attached_Goku #4 f L EyeBrowsHair3_end'
+    100086: 'b C Head attached_Goku #4 f L EyeCorner'
+    100088: 'b C Head attached_Goku #4 f L EyeCorner_end'
+    100090: 'b C Head attached_Goku #4 f L EyeInnerCorner'
+    100092: 'b C Head attached_Goku #4 f L EyeInnerCorner_end'
+    100094: 'b C Head attached_Goku #4 f L EyelidBottom'
+    100096: 'b C Head attached_Goku #4 f L EyelidTop'
+    100098: 'b C Head attached_Goku #4 f L EyelidTop_end'
+    100100: 'b C Head attached_Goku #4 f L MouthBottom'
+    100102: 'b C Head attached_Goku #4 f L MouthBottom_end'
+    100104: 'b C Head attached_Goku #4 f L MouthCorners'
+    100106: 'b C Head attached_Goku #4 f L MouthCorners_end'
+    100108: 'b C Head attached_Goku #4 f L MouthTop'
+    100110: 'b C Head attached_Goku #4 f L MouthTop_end'
+    100112: 'b C Head attached_Goku #4 f R CheekBottom'
+    100114: 'b C Head attached_Goku #4 f R CheekBottom_end'
+    100116: 'b C Head attached_Goku #4 f R CheekTop'
+    100118: 'b C Head attached_Goku #4 f R CheekTop_end'
+    100120: 'b C Head attached_Goku #4 f R EyeBrows1'
+    100122: 'b C Head attached_Goku #4 f R EyeBrows2'
+    100124: 'b C Head attached_Goku #4 f R EyeBrows3'
+    100126: 'b C Head attached_Goku #4 f R EyeBrowsHair1'
+    100128: 'b C Head attached_Goku #4 f R EyeBrowsHair1_end'
+    100130: 'b C Head attached_Goku #4 f R EyeBrowsHair2'
+    100132: 'b C Head attached_Goku #4 f R EyeBrowsHair2_end'
+    100134: 'b C Head attached_Goku #4 f R EyeBrowsHair3'
+    100136: 'b C Head attached_Goku #4 f R EyeBrowsHair3_end'
+    100138: 'b C Head attached_Goku #4 f R EyeCorner'
+    100140: 'b C Head attached_Goku #4 f R EyeCorner_end'
+    100142: 'b C Head attached_Goku #4 f R EyeInnerCorner'
+    100144: 'b C Head attached_Goku #4 f R EyeInnerCorner_end'
+    100146: 'b C Head attached_Goku #4 f R EyelidBottom'
+    100148: 'b C Head attached_Goku #4 f R EyelidTop'
+    100150: 'b C Head attached_Goku #4 f R EyelidTop_end'
+    100152: 'b C Head attached_Goku #4 f R MouthBottom'
+    100154: 'b C Head attached_Goku #4 f R MouthBottom_end'
+    100156: 'b C Head attached_Goku #4 f R MouthCorners'
+    100158: 'b C Head attached_Goku #4 f R MouthCorners_end'
+    100160: 'b C Head attached_Goku #4 f R MouthTop'
+    100162: 'b C Head attached_Goku #4 f R MouthTop_end'
+    100164: b C Neck1
+    100166: b C Pelvis
+    100168: b C Spine1
+    100170: b C Spine2
+    100172: b L Arm1
+    100174: b L Arm2
+    100176: b L ArmHelper
+    100178: b L ArmHelper_end
+    100180: b L ArmorParts
+    100182: b L ArmorParts_end
+    100184: b L ArmRoll
+    100186: b L ArmRoll_end
+    100188: b L Elbow
+    100190: b L Elbow_end
+    100192: b L Foot
+    100194: b L Hand
+    100196: b L Knee
+    100198: b L Knee_end
+    100200: b L Leg1
+    100202: b L Leg2
+    100204: b L LegHelper
+    100206: b L LegHelper_end
+    100208: b L Shoulder
+    100210: b L Toe
+    100212: b L Toe_end
+    100214: b R Arm1
+    100216: b R Arm2
+    100218: b R ArmHelper
+    100220: b R ArmHelper_end
+    100222: b R ArmorParts
+    100224: b R ArmorParts_end
+    100226: b R ArmRoll
+    100228: b R ArmRoll_end
+    100230: b R Elbow
+    100232: b R Elbow_end
+    100234: b R Foot
+    100236: b R Hand
+    100238: b R Knee
+    100240: b R Knee_end
+    100242: b R Leg1
+    100244: b R Leg2
+    100246: b R LegHelper
+    100248: b R LegHelper_end
+    100250: b R Shoulder
+    100252: b R Toe
+    100254: b R Toe_end
+    100256: breast.L
+    100258: breast.L_end
+    100260: breast.R
+    100262: breast.R_end
+    100264: EXP GOK 000
+    100266: f_index.01.L
+    100268: f_index.01.R
+    100270: f_index.02.L
+    100272: f_index.02.R
+    100274: f_index.03.L
+    100276: f_index.03.L_end
+    100278: f_index.03.R
+    100280: f_index.03.R_end
+    100282: f_middle.01.L
+    100284: f_middle.01.R
+    100286: f_middle.02.L
+    100288: f_middle.02.R
+    100290: f_middle.03.L
+    100292: f_middle.03.L_end
+    100294: f_middle.03.R
+    100296: f_middle.03.R_end
+    100298: f_pinky.01.L
+    100300: f_pinky.01.R
+    100302: f_pinky.02.L
+    100304: f_pinky.02.R
+    100306: f_pinky.03.L
+    100308: f_pinky.03.L_end
+    100310: f_pinky.03.R
+    100312: f_pinky.03.R_end
+    100314: f_ring.01.L
+    100316: f_ring.01.R
+    100318: f_ring.02.L
+    100320: f_ring.02.R
+    100322: f_ring.03.L
+    100324: f_ring.03.L_end
+    100326: f_ring.03.R
+    100328: f_ring.03.R_end
+    100330: foot.L
+    100332: foot.R
+    100334: forearm.L
+    100336: forearm.R
+    100338: //RootNode
+    100340: h L Index1
+    100342: h L Index2
+    100344: h L Index3
+    100346: h L Index3_end
+    100348: h L Middle1
+    100350: h L Middle2
+    100352: h L Middle3
+    100354: h L Middle3_end
+    100356: h L Pinky1
+    100358: h L Pinky2
+    100360: h L Pinky3
+    100362: h L Pinky3_end
+    100364: h L Ring1
+    100366: h L Ring2
+    100368: h L Ring3
+    100370: h L Ring3_end
+    100372: h L Thumb1
+    100374: h L Thumb2
+    100376: h L Thumb3
+    100378: h L Thumb3_end
+    100380: h R Index1
+    100382: h R Index2
+    100384: h R Index3
+    100386: h R Index3_end
+    100388: h R Middle1
+    100390: h R Middle2
+    100392: h R Middle3
+    100394: h R Middle3_end
+    100396: h R Pinky1
+    100398: h R Pinky2
+    100400: h R Pinky3
+    100402: h R Pinky3_end
+    100404: h R Ring1
+    100406: h R Ring2
+    100408: h R Ring3
+    100410: h R Ring3_end
+    100412: h R Thumb1
+    100414: h R Thumb2
+    100416: h R Thumb3
+    100418: h R Thumb3_end
+    100420: hand.L
+    100422: hand.R
+    100424: metarig.001
+    100426: Object001
+    100428: Object002
+    100430: Object003
+    100432: Object004
+    100434: Object005
+    100436: Object006
+    100438: Object007
+    100440: Object008
+    100442: Object009
+    100444: Object010
+    100446: Object011
+    100448: Object015
+    100450: Object019
+    100452: Object020
+    100454: palm.01.L
+    100456: palm.01.R
+    100458: palm.02.L
+    100460: palm.02.R
+    100462: palm.03.L
+    100464: palm.03.R
+    100466: palm.04.L
+    100468: palm.04.R
+    100470: pelvis.L
+    100472: pelvis.L_end
+    100474: pelvis.R
+    100476: pelvis.R_end
+    100478: Plane
+    100480: shin.L
+    100482: shin.R
+    100484: shoulder.L
+    100486: shoulder.R
+    100488: spine
+    100490: spine.001
+    100492: spine.002
+    100494: spine.003
+    100496: spine.005
+    100498: spine.006
+    100500: spine.006_end
+    100502: thigh.L
+    100504: thigh.R
+    100506: thumb.01.L
+    100508: thumb.01.R
+    100510: thumb.02.L
+    100512: thumb.02.R
+    100514: thumb.03.L
+    100516: thumb.03.L_end
+    100518: thumb.03.R
+    100520: thumb.03.R_end
+    100522: toe.L
+    100524: toe.L_end
+    100526: toe.R
+    100528: toe.R_end
+    100530: upper_arm.L
+    100532: upper_arm.R
+    100534: hair
+    100536: hair_end
+    100538: head
+    100540: neck
+    400000: Armature
+    400002: b C Base
+    400004: b C Chest
+    400006: b C Head
+    400008: 'b C Head attached_Goku #4 b C Base'
+    400010: 'b C Head attached_Goku #4 b C Chest'
+    400012: 'b C Head attached_Goku #4 b C Head'
+    400014: 'b C Head attached_Goku #4 b C Neck1'
+    400016: 'b C Head attached_Goku #4 b C Pelvis'
+    400018: 'b C Head attached_Goku #4 b C Spine1'
+    400020: 'b C Head attached_Goku #4 b C Spine2'
+    400022: 'b C Head attached_Goku #4 EXP GOK 000'
+    400024: 'b C Head attached_Goku #4 f C FaceRoot'
+    400026: 'b C Head attached_Goku #4 f C Jaw'
+    400028: 'b C Head attached_Goku #4 f C JawHalf'
+    400030: 'b C Head attached_Goku #4 f C MouthBottom'
+    400032: 'b C Head attached_Goku #4 f C MouthBottom_end'
+    400034: 'b C Head attached_Goku #4 f C MouthTop'
+    400036: 'b C Head attached_Goku #4 f C MouthTop_end'
+    400038: 'b C Head attached_Goku #4 f C NoseTop'
+    400040: 'b C Head attached_Goku #4 f C NoseTop_end'
+    400042: 'b C Head attached_Goku #4 f C Tongue1'
+    400044: 'b C Head attached_Goku #4 f C Tongue2'
+    400046: 'b C Head attached_Goku #4 f C Tongue3'
+    400048: 'b C Head attached_Goku #4 f C Tongue4'
+    400050: 'b C Head attached_Goku #4 f C Tongue4_end'
+    400052: 'b C Head attached_Goku #4 f C ToothBottom'
+    400054: 'b C Head attached_Goku #4 f C ToothBottom_end'
+    400056: 'b C Head attached_Goku #4 f C ToothTop'
+    400058: 'b C Head attached_Goku #4 f C ToothTop_end'
+    400060: 'b C Head attached_Goku #4 f L CheekBottom'
+    400062: 'b C Head attached_Goku #4 f L CheekBottom_end'
+    400064: 'b C Head attached_Goku #4 f L CheekTop'
+    400066: 'b C Head attached_Goku #4 f L CheekTop_end'
+    400068: 'b C Head attached_Goku #4 f L EyeBrows1'
+    400070: 'b C Head attached_Goku #4 f L EyeBrows2'
+    400072: 'b C Head attached_Goku #4 f L EyeBrows3'
+    400074: 'b C Head attached_Goku #4 f L EyeBrowsHair1'
+    400076: 'b C Head attached_Goku #4 f L EyeBrowsHair1_end'
+    400078: 'b C Head attached_Goku #4 f L EyeBrowsHair2'
+    400080: 'b C Head attached_Goku #4 f L EyeBrowsHair2_end'
+    400082: 'b C Head attached_Goku #4 f L EyeBrowsHair3'
+    400084: 'b C Head attached_Goku #4 f L EyeBrowsHair3_end'
+    400086: 'b C Head attached_Goku #4 f L EyeCorner'
+    400088: 'b C Head attached_Goku #4 f L EyeCorner_end'
+    400090: 'b C Head attached_Goku #4 f L EyeInnerCorner'
+    400092: 'b C Head attached_Goku #4 f L EyeInnerCorner_end'
+    400094: 'b C Head attached_Goku #4 f L EyelidBottom'
+    400096: 'b C Head attached_Goku #4 f L EyelidTop'
+    400098: 'b C Head attached_Goku #4 f L EyelidTop_end'
+    400100: 'b C Head attached_Goku #4 f L MouthBottom'
+    400102: 'b C Head attached_Goku #4 f L MouthBottom_end'
+    400104: 'b C Head attached_Goku #4 f L MouthCorners'
+    400106: 'b C Head attached_Goku #4 f L MouthCorners_end'
+    400108: 'b C Head attached_Goku #4 f L MouthTop'
+    400110: 'b C Head attached_Goku #4 f L MouthTop_end'
+    400112: 'b C Head attached_Goku #4 f R CheekBottom'
+    400114: 'b C Head attached_Goku #4 f R CheekBottom_end'
+    400116: 'b C Head attached_Goku #4 f R CheekTop'
+    400118: 'b C Head attached_Goku #4 f R CheekTop_end'
+    400120: 'b C Head attached_Goku #4 f R EyeBrows1'
+    400122: 'b C Head attached_Goku #4 f R EyeBrows2'
+    400124: 'b C Head attached_Goku #4 f R EyeBrows3'
+    400126: 'b C Head attached_Goku #4 f R EyeBrowsHair1'
+    400128: 'b C Head attached_Goku #4 f R EyeBrowsHair1_end'
+    400130: 'b C Head attached_Goku #4 f R EyeBrowsHair2'
+    400132: 'b C Head attached_Goku #4 f R EyeBrowsHair2_end'
+    400134: 'b C Head attached_Goku #4 f R EyeBrowsHair3'
+    400136: 'b C Head attached_Goku #4 f R EyeBrowsHair3_end'
+    400138: 'b C Head attached_Goku #4 f R EyeCorner'
+    400140: 'b C Head attached_Goku #4 f R EyeCorner_end'
+    400142: 'b C Head attached_Goku #4 f R EyeInnerCorner'
+    400144: 'b C Head attached_Goku #4 f R EyeInnerCorner_end'
+    400146: 'b C Head attached_Goku #4 f R EyelidBottom'
+    400148: 'b C Head attached_Goku #4 f R EyelidTop'
+    400150: 'b C Head attached_Goku #4 f R EyelidTop_end'
+    400152: 'b C Head attached_Goku #4 f R MouthBottom'
+    400154: 'b C Head attached_Goku #4 f R MouthBottom_end'
+    400156: 'b C Head attached_Goku #4 f R MouthCorners'
+    400158: 'b C Head attached_Goku #4 f R MouthCorners_end'
+    400160: 'b C Head attached_Goku #4 f R MouthTop'
+    400162: 'b C Head attached_Goku #4 f R MouthTop_end'
+    400164: b C Neck1
+    400166: b C Pelvis
+    400168: b C Spine1
+    400170: b C Spine2
+    400172: b L Arm1
+    400174: b L Arm2
+    400176: b L ArmHelper
+    400178: b L ArmHelper_end
+    400180: b L ArmorParts
+    400182: b L ArmorParts_end
+    400184: b L ArmRoll
+    400186: b L ArmRoll_end
+    400188: b L Elbow
+    400190: b L Elbow_end
+    400192: b L Foot
+    400194: b L Hand
+    400196: b L Knee
+    400198: b L Knee_end
+    400200: b L Leg1
+    400202: b L Leg2
+    400204: b L LegHelper
+    400206: b L LegHelper_end
+    400208: b L Shoulder
+    400210: b L Toe
+    400212: b L Toe_end
+    400214: b R Arm1
+    400216: b R Arm2
+    400218: b R ArmHelper
+    400220: b R ArmHelper_end
+    400222: b R ArmorParts
+    400224: b R ArmorParts_end
+    400226: b R ArmRoll
+    400228: b R ArmRoll_end
+    400230: b R Elbow
+    400232: b R Elbow_end
+    400234: b R Foot
+    400236: b R Hand
+    400238: b R Knee
+    400240: b R Knee_end
+    400242: b R Leg1
+    400244: b R Leg2
+    400246: b R LegHelper
+    400248: b R LegHelper_end
+    400250: b R Shoulder
+    400252: b R Toe
+    400254: b R Toe_end
+    400256: breast.L
+    400258: breast.L_end
+    400260: breast.R
+    400262: breast.R_end
+    400264: EXP GOK 000
+    400266: f_index.01.L
+    400268: f_index.01.R
+    400270: f_index.02.L
+    400272: f_index.02.R
+    400274: f_index.03.L
+    400276: f_index.03.L_end
+    400278: f_index.03.R
+    400280: f_index.03.R_end
+    400282: f_middle.01.L
+    400284: f_middle.01.R
+    400286: f_middle.02.L
+    400288: f_middle.02.R
+    400290: f_middle.03.L
+    400292: f_middle.03.L_end
+    400294: f_middle.03.R
+    400296: f_middle.03.R_end
+    400298: f_pinky.01.L
+    400300: f_pinky.01.R
+    400302: f_pinky.02.L
+    400304: f_pinky.02.R
+    400306: f_pinky.03.L
+    400308: f_pinky.03.L_end
+    400310: f_pinky.03.R
+    400312: f_pinky.03.R_end
+    400314: f_ring.01.L
+    400316: f_ring.01.R
+    400318: f_ring.02.L
+    400320: f_ring.02.R
+    400322: f_ring.03.L
+    400324: f_ring.03.L_end
+    400326: f_ring.03.R
+    400328: f_ring.03.R_end
+    400330: foot.L
+    400332: foot.R
+    400334: forearm.L
+    400336: forearm.R
+    400338: //RootNode
+    400340: h L Index1
+    400342: h L Index2
+    400344: h L Index3
+    400346: h L Index3_end
+    400348: h L Middle1
+    400350: h L Middle2
+    400352: h L Middle3
+    400354: h L Middle3_end
+    400356: h L Pinky1
+    400358: h L Pinky2
+    400360: h L Pinky3
+    400362: h L Pinky3_end
+    400364: h L Ring1
+    400366: h L Ring2
+    400368: h L Ring3
+    400370: h L Ring3_end
+    400372: h L Thumb1
+    400374: h L Thumb2
+    400376: h L Thumb3
+    400378: h L Thumb3_end
+    400380: h R Index1
+    400382: h R Index2
+    400384: h R Index3
+    400386: h R Index3_end
+    400388: h R Middle1
+    400390: h R Middle2
+    400392: h R Middle3
+    400394: h R Middle3_end
+    400396: h R Pinky1
+    400398: h R Pinky2
+    400400: h R Pinky3
+    400402: h R Pinky3_end
+    400404: h R Ring1
+    400406: h R Ring2
+    400408: h R Ring3
+    400410: h R Ring3_end
+    400412: h R Thumb1
+    400414: h R Thumb2
+    400416: h R Thumb3
+    400418: h R Thumb3_end
+    400420: hand.L
+    400422: hand.R
+    400424: metarig.001
+    400426: Object001
+    400428: Object002
+    400430: Object003
+    400432: Object004
+    400434: Object005
+    400436: Object006
+    400438: Object007
+    400440: Object008
+    400442: Object009
+    400444: Object010
+    400446: Object011
+    400448: Object015
+    400450: Object019
+    400452: Object020
+    400454: palm.01.L
+    400456: palm.01.R
+    400458: palm.02.L
+    400460: palm.02.R
+    400462: palm.03.L
+    400464: palm.03.R
+    400466: palm.04.L
+    400468: palm.04.R
+    400470: pelvis.L
+    400472: pelvis.L_end
+    400474: pelvis.R
+    400476: pelvis.R_end
+    400478: Plane
+    400480: shin.L
+    400482: shin.R
+    400484: shoulder.L
+    400486: shoulder.R
+    400488: spine
+    400490: spine.001
+    400492: spine.002
+    400494: spine.003
+    400496: spine.005
+    400498: spine.006
+    400500: spine.006_end
+    400502: thigh.L
+    400504: thigh.R
+    400506: thumb.01.L
+    400508: thumb.01.R
+    400510: thumb.02.L
+    400512: thumb.02.R
+    400514: thumb.03.L
+    400516: thumb.03.L_end
+    400518: thumb.03.R
+    400520: thumb.03.R_end
+    400522: toe.L
+    400524: toe.L_end
+    400526: toe.R
+    400528: toe.R_end
+    400530: upper_arm.L
+    400532: upper_arm.R
+    400534: hair
+    400536: hair_end
+    400538: head
+    400540: neck
+    2100000: skin.001
+    2100002: 'Material #816'
+    2100004: 'Material #812'
+    2100006: 'Material #820'
+    2100008: 'Material #831'
+    2100010: 'Material #817'
+    2100012: 'Material #813'
+    2100014: 'Material #821'
+    2100016: 'Material #818'
+    2100018: 'Material #822'
+    2100020: 'Material #814'
+    2100022: 'Material #826'
+    2100024: 'Material #815'
+    2100026: 'Material #819'
+    2100028: 'Material #830'
+    2100030: clothes.001
+    2300000: Object019
+    3300000: Object019
+    4300000: Plane
+    4300002: Object005
+    4300004: Object001
+    4300006: Object009
+    4300008: Object020
+    4300010: Object006
+    4300012: Object002
+    4300014: Object010
+    4300016: Object007
+    4300018: Object011
+    4300020: Object003
+    4300022: Object015
+    4300024: Object004
+    4300026: Object008
+    4300028: Object019
+    7400000: metarig.001|Tpose.002
+    9500000: //RootNode
+    13700000: Object001
+    13700002: Object002
+    13700004: Object003
+    13700006: Object004
+    13700008: Object005
+    13700010: Object006
+    13700012: Object007
+    13700014: Object008
+    13700016: Object009
+    13700018: Object010
+    13700020: Object011
+    13700022: Object015
+    13700024: Object020
+    13700026: Plane
+    13700028: Object019
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
