@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 64bb4a62c3fb16641b8a7bd87ca29a6d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: breast.L
+    100002: breast.L_end
+    100004: breast.R
+    100006: breast.R_end
+    100008: Camera
+    100010: Empty
+    100012: f_index.01.L
+    100014: f_index.01.R
+    100016: f_index.02.L
+    100018: f_index.02.R
+    100020: f_index.03.L
+    100022: f_index.03.L_end
+    100024: f_index.03.R
+    100026: f_index.03.R_end
+    100028: f_middle.01.L
+    100030: f_middle.01.R
+    100032: f_middle.02.L
+    100034: f_middle.02.R
+    100036: f_middle.03.L
+    100038: f_middle.03.L_end
+    100040: f_middle.03.R
+    100042: f_middle.03.R_end
+    100044: f_pinky.01.L
+    100046: f_pinky.01.R
+    100048: f_pinky.02.L
+    100050: f_pinky.02.R
+    100052: f_pinky.03.L
+    100054: f_pinky.03.L_end
+    100056: f_pinky.03.R
+    100058: f_pinky.03.R_end
+    100060: f_ring.01.L
+    100062: f_ring.01.R
+    100064: f_ring.02.L
+    100066: f_ring.02.R
+    100068: f_ring.03.L
+    100070: f_ring.03.L_end
+    100072: f_ring.03.R
+    100074: f_ring.03.R_end
+    100076: foot.L
+    100078: foot.R
+    100080: forearm.L
+    100082: forearm.R
+    100084: hand.L
+    100086: hand.R
+    100088: //RootNode
+    100090: Light
+    100092: metarig.001
+    100094: Object001
+    100096: Object002
+    100098: Object004
+    100100: Object005
+    100102: Object006
+    100104: Object007
+    100106: Object008
+    100108: Object009
+    100110: Object010
+    100112: Object011
+    100114: Object012
+    100116: Object013
+    100118: Object014
+    100120: Object015
+    100122: Object017
+    100124: Object018
+    100126: Object019
+    100128: palm.01.L
+    100130: palm.01.R
+    100132: palm.02.L
+    100134: palm.02.R
+    100136: palm.03.L
+    100138: palm.03.R
+    100140: palm.04.L
+    100142: palm.04.R
+    100144: pelvis.L
+    100146: pelvis.L_end
+    100148: pelvis.R
+    100150: pelvis.R_end
+    100152: Plane
+    100154: shin.L
+    100156: shin.R
+    100158: shoulder.L
+    100160: shoulder.R
+    100162: spine
+    100164: spine.001
+    100166: spine.002
+    100168: spine.003
+    100170: spine.005
+    100172: spine.006
+    100174: spine.006_end
+    100176: thigh.L
+    100178: thigh.R
+    100180: thumb.01.L
+    100182: thumb.01.R
+    100184: thumb.02.L
+    100186: thumb.02.R
+    100188: thumb.03.L
+    100190: thumb.03.L_end
+    100192: thumb.03.R
+    100194: thumb.03.R_end
+    100196: toe.L
+    100198: toe.L_end
+    100200: toe.R
+    100202: toe.R_end
+    100204: upper_arm.L
+    100206: upper_arm.R
+    400000: breast.L
+    400002: breast.L_end
+    400004: breast.R
+    400006: breast.R_end
+    400008: Camera
+    400010: Empty
+    400012: f_index.01.L
+    400014: f_index.01.R
+    400016: f_index.02.L
+    400018: f_index.02.R
+    400020: f_index.03.L
+    400022: f_index.03.L_end
+    400024: f_index.03.R
+    400026: f_index.03.R_end
+    400028: f_middle.01.L
+    400030: f_middle.01.R
+    400032: f_middle.02.L
+    400034: f_middle.02.R
+    400036: f_middle.03.L
+    400038: f_middle.03.L_end
+    400040: f_middle.03.R
+    400042: f_middle.03.R_end
+    400044: f_pinky.01.L
+    400046: f_pinky.01.R
+    400048: f_pinky.02.L
+    400050: f_pinky.02.R
+    400052: f_pinky.03.L
+    400054: f_pinky.03.L_end
+    400056: f_pinky.03.R
+    400058: f_pinky.03.R_end
+    400060: f_ring.01.L
+    400062: f_ring.01.R
+    400064: f_ring.02.L
+    400066: f_ring.02.R
+    400068: f_ring.03.L
+    400070: f_ring.03.L_end
+    400072: f_ring.03.R
+    400074: f_ring.03.R_end
+    400076: foot.L
+    400078: foot.R
+    400080: forearm.L
+    400082: forearm.R
+    400084: hand.L
+    400086: hand.R
+    400088: //RootNode
+    400090: Light
+    400092: metarig.001
+    400094: Object001
+    400096: Object002
+    400098: Object004
+    400100: Object005
+    400102: Object006
+    400104: Object007
+    400106: Object008
+    400108: Object009
+    400110: Object010
+    400112: Object011
+    400114: Object012
+    400116: Object013
+    400118: Object014
+    400120: Object015
+    400122: Object017
+    400124: Object018
+    400126: Object019
+    400128: palm.01.L
+    400130: palm.01.R
+    400132: palm.02.L
+    400134: palm.02.R
+    400136: palm.03.L
+    400138: palm.03.R
+    400140: palm.04.L
+    400142: palm.04.R
+    400144: pelvis.L
+    400146: pelvis.L_end
+    400148: pelvis.R
+    400150: pelvis.R_end
+    400152: Plane
+    400154: shin.L
+    400156: shin.R
+    400158: shoulder.L
+    400160: shoulder.R
+    400162: spine
+    400164: spine.001
+    400166: spine.002
+    400168: spine.003
+    400170: spine.005
+    400172: spine.006
+    400174: spine.006_end
+    400176: thigh.L
+    400178: thigh.R
+    400180: thumb.01.L
+    400182: thumb.01.R
+    400184: thumb.02.L
+    400186: thumb.02.R
+    400188: thumb.03.L
+    400190: thumb.03.L_end
+    400192: thumb.03.R
+    400194: thumb.03.R_end
+    400196: toe.L
+    400198: toe.L_end
+    400200: toe.R
+    400202: toe.R_end
+    400204: upper_arm.L
+    400206: upper_arm.R
+    2000000: Camera
+    2100000: skin.001
+    2100002: sweat.001
+    2100004: clothes.001
+    2100006: gloves.001
+    2100008: 'Material #535'
+    2100010: 'Material #532'
+    2100012: 'Material #546'
+    2100014: 'Material #539'
+    2100016: 'Material #543'
+    2100018: 'Material #549'
+    2100020: 'Material #536'
+    2100022: 'Material #544'
+    2100024: 'Material #540'
+    2100026: 'Material #548'
+    2100028: 'Material #545'
+    2100030: 'Material #533'
+    2100032: 'Material #537'
+    2100034: 'Material #541'
+    2100036: 'Material #538'
+    2100038: 'Material #542'
+    2300000: Object002
+    2300002: Object005
+    2300004: Object006
+    2300006: Object007
+    2300008: Object008
+    2300010: Object009
+    2300012: Object010
+    2300014: Object011
+    2300016: Object012
+    2300018: Object013
+    2300020: Object014
+    2300022: Object015
+    2300024: Object017
+    2300026: Object018
+    2300028: Object019
+    3300000: Object002
+    3300002: Object005
+    3300004: Object006
+    3300006: Object007
+    3300008: Object008
+    3300010: Object009
+    3300012: Object010
+    3300014: Object011
+    3300016: Object012
+    3300018: Object013
+    3300020: Object014
+    3300022: Object015
+    3300024: Object017
+    3300026: Object018
+    3300028: Object019
+    4300000: Plane
+    4300002: Object004
+    4300004: Object001
+    4300006: Object015
+    4300008: Object008
+    4300010: Object012
+    4300012: Object019
+    4300014: Object005
+    4300016: Object013
+    4300018: Object009
+    4300020: Object017
+    4300022: Object014
+    4300024: Object002
+    4300026: Object006
+    4300028: Object010
+    4300030: Object007
+    4300032: Object011
+    4300034: Object018
+    7400000: metarig.001|Tpose.002
+    9500000: //RootNode
+    10800000: Light
+    13700000: Object001
+    13700002: Object004
+    13700004: Plane
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

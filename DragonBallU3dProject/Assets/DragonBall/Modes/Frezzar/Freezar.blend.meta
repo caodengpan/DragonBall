@@ -156,6 +156,9 @@ ModelImporter:
     100300: thumb.03.L_end
     100302: thumb.03.R
     100304: thumb.03.R_end
+    100306: head
+    100308: head_end
+    100310: neck
     400000: breast_L
     400002: breast_R
     400004: foot_L
@@ -309,6 +312,9 @@ ModelImporter:
     400300: thumb.03.L_end
     400302: thumb.03.R
     400304: thumb.03.R_end
+    400306: head
+    400308: head_end
+    400310: neck
     2000000: Camera
     2100000: skin
     2100002: hair
@@ -328,7 +334,27 @@ ModelImporter:
     13700000: Plane
     13700002: Freezar
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: 66fa8828e57b49743a431f61f78b631e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: purple
+    second: {fileID: 2100000, guid: c08ec7efec3258345b03e60d999283a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: f39d53d771f45d0468ef4c6d09f7cec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trousers
+    second: {fileID: 2100000, guid: 3370ff378eb6bf144bd042341c7a419d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -365,8 +391,8 @@ ModelImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1

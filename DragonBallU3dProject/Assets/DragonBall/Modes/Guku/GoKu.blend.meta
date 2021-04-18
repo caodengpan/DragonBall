@@ -274,6 +274,14 @@ ModelImporter:
     100536: hair_end
     100538: head
     100540: neck
+    100542: Belt
+    100544: Body
+    100546: Clothes
+    100548: Hair
+    100550: metarig
+    100552: Shoes
+    100554: Sweat
+    100556: Trousers
     400000: Armature
     400002: b C Base
     400004: b C Chest
@@ -545,6 +553,14 @@ ModelImporter:
     400536: hair_end
     400538: head
     400540: neck
+    400542: Belt
+    400544: Body
+    400546: Clothes
+    400548: Hair
+    400550: metarig
+    400552: Shoes
+    400554: Sweat
+    400556: Trousers
     2100000: skin.001
     2100002: 'Material #816'
     2100004: 'Material #812'
@@ -578,7 +594,15 @@ ModelImporter:
     4300024: Object004
     4300026: Object008
     4300028: Object019
+    4300030: Body
+    4300032: Sweat
+    4300034: Shoes
+    4300036: Belt
+    4300038: Trousers
+    4300040: Clothes
+    4300042: Hair
     7400000: metarig.001|Tpose.002
+    7400002: metarig|Tpose.002
     9500000: //RootNode
     13700000: Object001
     13700002: Object002
@@ -595,6 +619,13 @@ ModelImporter:
     13700024: Object020
     13700026: Plane
     13700028: Object019
+    13700030: Belt
+    13700032: Body
+    13700034: Clothes
+    13700036: Hair
+    13700038: Shoes
+    13700040: Sweat
+    13700042: Trousers
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
