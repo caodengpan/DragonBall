@@ -89,6 +89,9 @@
     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
     <Compile Include="Assets\iTweenEditor\Editor\iTweenEventDataEditor.cs" />
     <Compile Include="Assets\iTweenEditor\Editor\iTweenPathEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors\Editor\TCF_MaterialInspector.cs" />
     <Compile Include="Assets\LWRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -366,6 +369,9 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>D:/Work/GitProjects/DragonBall/DragonBallU3dProject/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>D:/Work/GitProjects/DragonBall/DragonBallU3dProject/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
