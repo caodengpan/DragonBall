@@ -118,21 +118,30 @@ public class CFX_SpawnSystem : MonoBehaviour
 			#if UNITY_3_5
 				newObj.SetActiveRecursively(false);
 			#else
-				newObj.SetActive(false);
+					newObj.SetActive(false);
 			#endif
 			
 			//Set flag to not destruct object
+			WFX_AutoDestructShuriken[] autoDestruct = newObj.GetComponentsInChildren<WFX_AutoDestructShuriken>(true);
+			foreach(WFX_AutoDestructShuriken ad in autoDestruct)
+			{
+				ad.OnlyDeactivate = true;
+			}
+			//Uncomment the following block to make the system compatible with "Cartoon FX"
+			/*
 			CFX_AutoDestructShuriken[] autoDestruct = newObj.GetComponentsInChildren<CFX_AutoDestructShuriken>(true);
 			foreach(CFX_AutoDestructShuriken ad in autoDestruct)
 			{
 				ad.OnlyDeactivate = true;
 			}
+			
 			//Set flag to not destruct light
 			CFX_LightIntensityFade[] lightIntensity = newObj.GetComponentsInChildren<CFX_LightIntensityFade>(true);
 			foreach(CFX_LightIntensityFade li in lightIntensity)
 			{
 				li.autodestruct = false;
 			}
+			*/
 			
 			instantiatedObjects[uniqueId].Add(newObj);
 			

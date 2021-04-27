@@ -107,6 +107,9 @@ ModelImporter:
     100202: toe.R_end
     100204: upper_arm.L
     100206: upper_arm.R
+    100208: head
+    100210: head_end
+    100212: neck
     400000: breast.L
     400002: breast.L_end
     400004: breast.R
@@ -211,6 +214,9 @@ ModelImporter:
     400202: toe.R_end
     400204: upper_arm.L
     400206: upper_arm.R
+    400208: head
+    400210: head_end
+    400212: neck
     2000000: Camera
     2100000: skin.001
     2100002: sweat.001

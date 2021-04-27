@@ -93,6 +93,7 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
     <Compile Include="Assets\JMO Assets\Toony Colors\Editor\TCF_MaterialInspector.cs" />
+    <Compile Include="Assets\JMO Assets\WarFX\Editor\WFX_ParticleMeshBillboardEditor.cs" />
     <Compile Include="Assets\LWRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>D:/Work/GitProjects/DragonBall/DragonBallU3dProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>

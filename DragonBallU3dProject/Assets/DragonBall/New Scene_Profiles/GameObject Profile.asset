@@ -168,7 +168,7 @@ MonoBehaviour:
     overrideState: 1
     value: 20
   colorFilter:
-    overrideState: 0
+    overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     overrideState: 0
@@ -202,19 +202,19 @@ MonoBehaviour:
     value: 100
   mixerGreenOutBlueIn:
     overrideState: 0
-    value: 0
+    value: -17
   mixerBlueOutRedIn:
     overrideState: 0
-    value: 0
+    value: 20
   mixerBlueOutGreenIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 10
   mixerBlueOutBlueIn:
     overrideState: 0
     value: 100
   lift:
-    overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    overrideState: 1
+    value: {x: 1, y: 0.80714935, z: 0.9326163, w: -0.14678898}
   gamma:
     overrideState: 0
     value: {x: 1, y: 1, z: 1, w: 0}
